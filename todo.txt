@@ -1,0 +1,34 @@
+travail de recherche
+
+Fichier d'initialisation (reset.css)
+grid (grid.css)
+nav (nav.css)
+html de test (test.html)
+html de demo (index.html)
+
+
+--------------------------------------------------------------------------------
+Idées:
+Positionnement (static, absolute/relative)
+Classes pour tailles div (H6,H10..W5,W10)
+Menu (normal, responsive)
+Mise en pase (margin, padding, border, "bottom, top, left, right")
+
+
+Répartition:
+
+--------------------
+Jean-Jacques:
+reset.css
+
+--------------------
+Alice:
+nav.css
+
+--------------------
+Okba:
+grid.css
+
+--------------------
+Kevin:
+index.html
