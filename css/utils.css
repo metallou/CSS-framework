@@ -1,0 +1,488 @@
+/* Padding -------------------------------------------------------------------- */
+/* Top -------------------------------- */
+.PADDING-TOP1
+{
+    padding-top: 1px;
+}
+.PADDING-TOP2
+{
+    padding-top: 2px;
+}
+.PADDING-TOP3
+{
+    padding-top: 3px;
+}
+.PADDING-TOP4
+{
+    padding-top: 4px;
+}
+.PADDING-TOP5
+{
+    padding-top: 5px;
+}
+.PADDING-TOP10
+{
+    padding-top: 10px;
+}
+.PADDING-TOP15
+{
+    padding-top: 15px;
+}
+.PADDING-TOP20
+{
+    padding-top: 20px;
+}
+.PADDING-TOP25
+{
+    padding-top: 25px;
+}
+/* Right ------------------------------ */
+.PADDING-RIGHT1
+{
+    padding-right: 1px;
+}
+.PADDING-RIGHT2
+{
+    padding-right: 2px;
+}
+.PADDING-RIGHT3
+{
+    padding-right: 3px;
+}
+.PADDING-RIGHT4
+{
+    padding-right: 4px;
+}
+.PADDING-RIGHT5
+{
+    padding-right: 5px;
+}
+.PADDING-RIGHT10
+{
+    padding-right: 10px;
+}
+.PADDING-RIGHT15
+{
+    padding-right: 15px;
+}
+.PADDING-RIGHT20
+{
+    padding-right: 20px;
+}
+.PADDING-RIGHT25
+{
+    padding-right: 25px;
+}
+/* Bottom ----------------------------- */
+.PADDING-BOTTOM1
+{
+    padding-bottom: 1px;
+}
+.PADDING-BOTTOM2
+{
+    padding-bottom: 2px;
+}
+.PADDING-BOTTOM3
+{
+    padding-bottom: 3px;
+}
+.PADDING-BOTTOM4
+{
+    padding-bottom: 4px;
+}
+.PADDING-BOTTOM5
+{
+    padding-bottom: 5px;
+}
+.PADDING-BOTTOM10
+{
+    padding-bottom: 10px;
+}
+.PADDING-BOTTOM15
+{
+    padding-bottom: 15px;
+}
+.PADDING-BOTTOM20
+{
+    padding-bottom: 20px;
+}
+.PADDING-BOTTOM25
+{
+    padding-bottom: 25px;
+}
+/* Left ------------------------------- */
+.PADDING-LEFT1
+{
+    padding-left: 1px;
+}
+.PADDING-LEFT2
+{
+    padding-left: 2px;
+}
+.PADDING-LEFT3
+{
+    padding-left: 3px;
+}
+.PADDING-LEFT4
+{
+    padding-left: 4px;
+}
+.PADDING-LEFT5
+{
+    padding-left: 5px;
+}
+.PADDING-LEFT10
+{
+    padding-left: 10px;
+}
+.PADDING-LEFT15
+{
+    padding-left: 15px;
+}
+.PADDING-LEFT20
+{
+    padding-left: 20px;
+}
+.PADDING-LEFT25
+{
+    padding-left: 25px;
+}
+/* All -------------------------------- */
+.PADDING1
+{
+    padding: 1px;
+}
+.PADDING2
+{
+    padding: 2px;
+}
+.PADDING3
+{
+    padding: 3px;
+}
+.PADDING4
+{
+    padding: 4px;
+}
+.PADDING5
+{
+    padding: 5px;
+}
+.PADDING10
+{
+    padding: 10px;
+}
+.PADDING15
+{
+    padding: 15px;
+}
+.PADDING20
+{
+    padding: 20px;
+}
+.PADDING25
+{
+    padding: 25px;
+}
+
+/* Margin -------------------------------------------------------------------- */
+/* Top -------------------------------- */
+.MARGIN-TOP1
+{
+    margin-top: 1px;
+}
+.MARGIN-TOP2
+{
+    margin-top: 2px;
+}
+.MARGIN-TOP3
+{
+    margin-top: 3px;
+}
+.MARGIN-TOP4
+{
+    margin-top: 4px;
+}
+.MARGIN-TOP5
+{
+    margin-top: 5px;
+}
+.MARGIN-TOP10
+{
+    margin-top: 10px;
+}
+.MARGIN-TOP15
+{
+    margin-top: 15px;
+}
+.MARGIN-TOP20
+{
+    margin-top: 20px;
+}
+.MARGIN-TOP25
+{
+    margin-top: 25px;
+}
+/* Right ------------------------------ */
+.MARGIN-RIGHT1
+{
+    margin-right: 1px;
+}
+.MARGIN-RIGHT2
+{
+    margin-right: 2px;
+}
+.MARGIN-RIGHT3
+{
+    margin-right: 3px;
+}
+.MARGIN-RIGHT4
+{
+    margin-right: 4px;
+}
+.MARGIN-RIGHT5
+{
+    margin-right: 5px;
+}
+.MARGIN-RIGHT10
+{
+    margin-right: 10px;
+}
+.MARGIN-RIGHT15
+{
+    margin-right: 15px;
+}
+.MARGIN-RIGHT20
+{
+    margin-right: 20px;
+}
+.MARGIN-RIGHT25
+{
+    margin-right: 25px;
+}
+/* Bottom ----------------------------- */
+.MARGIN-BOTTOM1
+{
+    margin-bottom: 1px;
+}
+.MARGIN-BOTTOM2
+{
+    margin-bottom: 2px;
+}
+.MARGIN-BOTTOM3
+{
+    margin-bottom: 3px;
+}
+.MARGIN-BOTTOM4
+{
+    margin-bottom: 4px;
+}
+.MARGIN-BOTTOM5
+{
+    margin-bottom: 5px;
+}
+.MARGIN-BOTTOM10
+{
+    margin-bottom: 10px;
+}
+.MARGIN-BOTTOM15
+{
+    margin-bottom: 15px;
+}
+.MARGIN-BOTTOM20
+{
+    margin-bottom: 20px;
+}
+.MARGIN-BOTTOM25
+{
+    margin-bottom: 25px;
+}
+/* Left ------------------------------- */
+.MARGIN-LEFT1
+{
+    margin-left: 1px;
+}
+.MARGIN-LEFT2
+{
+    margin-left: 2px;
+}
+.MARGIN-LEFT3
+{
+    margin-left: 3px;
+}
+.MARGIN-LEFT4
+{
+    margin-left: 4px;
+}
+.MARGIN-LEFT5
+{
+    margin-left: 5px;
+}
+.MARGIN-LEFT10
+{
+    margin-left: 10px;
+}
+.MARGIN-LEFT15
+{
+    margin-left: 15px;
+}
+.MARGIN-LEFT20
+{
+    margin-left: 20px;
+}
+.MARGIN-LEFT25
+{
+    margin-left: 25px;
+}
+/* All -------------------------------- */
+.MARGIN1
+{
+    margin: 1px;
+}
+.MARGIN2
+{
+    margin: 2px;
+}
+.MARGIN3
+{
+    margin: 3px;
+}
+.MARGIN4
+{
+    margin: 4px;
+}
+.MARGIN5
+{
+    margin: 5px;
+}
+.MARGIN10
+{
+    margin: 10px;
+}
+.MARGIN15
+{
+    margin: 15px;
+}
+.MARGIN20
+{
+    margin: 20px;
+}
+.MARGIN25
+{
+    margin: 25px;
+}
+
+/* Border --------------------------------------------------------------------- */
+/* Top -------------------------------- */
+.BORDER-TOP1
+{
+    border-top: 1px solid black;
+}
+.BORDER-TOP2
+{
+    border-top: 2px solid black;
+}
+.BORDER-TOP3
+{
+    border-top: 3px solid black;
+}
+.BORDER-TOP4
+{
+    border-top: 4px solid black;
+}
+.BORDER-TOP5
+{
+    border-top: 5px solid black;
+}
+/* Right ------------------------------ */
+.BORDER-RIGHT1
+{
+    border-right: 1px solid black;
+}
+.BORDER-RIGHT2
+{
+    border-right: 2px solid black;
+}
+.BORDER-RIGHT3
+{
+    border-right: 3px solid black;
+}
+.BORDER-RIGHT4
+{
+    border-right: 4px solid black;
+}
+.BORDER-RIGHT5
+{
+    border-right: 5px solid black;
+}
+/* Bottom ----------------------------- */
+.BORDER-BOTTOM1
+{
+    border-bottom: 1px solid black;
+}
+.BORDER-BOTTOM2
+{
+    border-bottom: 2px solid black;
+}
+.BORDER-BOTTOM3
+{
+    border-bottom: 3px solid black;
+}
+.BORDER-BOTTOM4
+{
+    border-bottom: 4px solid black;
+}
+.BORDER-BOTTOM5
+{
+    border-bottom: 5px solid black;
+}
+/* Left ------------------------------- */
+.BORDER-LEFT1
+{
+    border-left: 1px solid black;
+}
+.BORDER-LEFT2
+{
+    border-left: 2px solid black;
+}
+.BORDER-LEFT3
+{
+    border-left: 3px solid black;
+}
+.BORDER-LEFT4
+{
+    border-left: 4px solid black;
+}
+.BORDER-LEFT5
+{
+    border-left: 5px solid black;
+}
+/* All -------------------------------- */
+.BORDER1
+{
+    border: 1px solid black;
+}
+.BORDER2
+{
+    border: 2px solid black;
+}
+.BORDER3
+{
+    border: 3px solid black;
+}
+.BORDER4
+{
+    border: 4px solid black;
+}
+.BORDER5
+{
+    border: 5px solid black;
+}
+
+/* Height --------------------------------------------------------------------- */
+
+
+/* Width ---------------------------------------------------------------------- */
+
+
+
