@@ -1,149 +1,149 @@
 /* Padding -------------------------------------------------------------------- */
 /* Top -------------------------------- */
-.PADDING-TOP1
+.PADDINGTOP1
 {
     padding-top: 1px;
 }
-.PADDING-TOP2
+.PADDINGTOP2
 {
     padding-top: 2px;
 }
-.PADDING-TOP3
+.PADDINGTOP3
 {
     padding-top: 3px;
 }
-.PADDING-TOP4
+.PADDINGTOP4
 {
     padding-top: 4px;
 }
-.PADDING-TOP5
+.PADDINGTOP5
 {
     padding-top: 5px;
 }
-.PADDING-TOP10
+.PADDINGTOP10
 {
     padding-top: 10px;
 }
-.PADDING-TOP15
+.PADDINGTOP15
 {
     padding-top: 15px;
 }
-.PADDING-TOP20
+.PADDINGTOP20
 {
     padding-top: 20px;
 }
-.PADDING-TOP25
+.PADDINGTOP25
 {
     padding-top: 25px;
 }
 /* Right ------------------------------ */
-.PADDING-RIGHT1
+.PADDINGRIGHT1
 {
     padding-right: 1px;
 }
-.PADDING-RIGHT2
+.PADDINGRIGHT2
 {
     padding-right: 2px;
 }
-.PADDING-RIGHT3
+.PADDINGRIGHT3
 {
     padding-right: 3px;
 }
-.PADDING-RIGHT4
+.PADDINGRIGHT4
 {
     padding-right: 4px;
 }
-.PADDING-RIGHT5
+.PADDINGRIGHT5
 {
     padding-right: 5px;
 }
-.PADDING-RIGHT10
+.PADDINGRIGHT10
 {
     padding-right: 10px;
 }
-.PADDING-RIGHT15
+.PADDINGRIGHT15
 {
     padding-right: 15px;
 }
-.PADDING-RIGHT20
+.PADDINGRIGHT20
 {
     padding-right: 20px;
 }
-.PADDING-RIGHT25
+.PADDINGRIGHT25
 {
     padding-right: 25px;
 }
 /* Bottom ----------------------------- */
-.PADDING-BOTTOM1
+.PADDINGBOTTOM1
 {
     padding-bottom: 1px;
 }
-.PADDING-BOTTOM2
+.PADDINGBOTTOM2
 {
     padding-bottom: 2px;
 }
-.PADDING-BOTTOM3
+.PADDINGBOTTOM3
 {
     padding-bottom: 3px;
 }
-.PADDING-BOTTOM4
+.PADDINGBOTTOM4
 {
     padding-bottom: 4px;
 }
-.PADDING-BOTTOM5
+.PADDINGBOTTOM5
 {
     padding-bottom: 5px;
 }
-.PADDING-BOTTOM10
+.PADDINGBOTTOM10
 {
     padding-bottom: 10px;
 }
-.PADDING-BOTTOM15
+.PADDINGBOTTOM15
 {
     padding-bottom: 15px;
 }
-.PADDING-BOTTOM20
+.PADDINGBOTTOM20
 {
     padding-bottom: 20px;
 }
-.PADDING-BOTTOM25
+.PADDINGBOTTOM25
 {
     padding-bottom: 25px;
 }
 /* Left ------------------------------- */
-.PADDING-LEFT1
+.PADDINGLEFT1
 {
     padding-left: 1px;
 }
-.PADDING-LEFT2
+.PADDINGLEFT2
 {
     padding-left: 2px;
 }
-.PADDING-LEFT3
+.PADDINGLEFT3
 {
     padding-left: 3px;
 }
-.PADDING-LEFT4
+.PADDINGLEFT4
 {
     padding-left: 4px;
 }
-.PADDING-LEFT5
+.PADDINGLEFT5
 {
     padding-left: 5px;
 }
-.PADDING-LEFT10
+.PADDINGLEFT10
 {
     padding-left: 10px;
 }
-.PADDING-LEFT15
+.PADDINGLEFT15
 {
     padding-left: 15px;
 }
-.PADDING-LEFT20
+.PADDINGLEFT20
 {
     padding-left: 20px;
 }
-.PADDING-LEFT25
+.PADDINGLEFT25
 {
     padding-left: 25px;
 }
@@ -187,150 +187,150 @@
 
 /* Margin -------------------------------------------------------------------- */
 /* Top -------------------------------- */
-.MARGIN-TOP1
+.MARGINTOP1
 {
     margin-top: 1px;
 }
-.MARGIN-TOP2
+.MARGINTOP2
 {
     margin-top: 2px;
 }
-.MARGIN-TOP3
+.MARGINTOP3
 {
     margin-top: 3px;
 }
-.MARGIN-TOP4
+.MARGINTOP4
 {
     margin-top: 4px;
 }
-.MARGIN-TOP5
+.MARGINTOP5
 {
     margin-top: 5px;
 }
-.MARGIN-TOP10
+.MARGINTOP10
 {
     margin-top: 10px;
 }
-.MARGIN-TOP15
+.MARGINTOP15
 {
     margin-top: 15px;
 }
-.MARGIN-TOP20
+.MARGINTOP20
 {
     margin-top: 20px;
 }
-.MARGIN-TOP25
+.MARGINTOP25
 {
     margin-top: 25px;
 }
 /* Right ------------------------------ */
-.MARGIN-RIGHT1
+.MARGINRIGHT1
 {
     margin-right: 1px;
 }
-.MARGIN-RIGHT2
+.MARGINRIGHT2
 {
     margin-right: 2px;
 }
-.MARGIN-RIGHT3
+.MARGINRIGHT3
 {
     margin-right: 3px;
 }
-.MARGIN-RIGHT4
+.MARGINRIGHT4
 {
     margin-right: 4px;
 }
-.MARGIN-RIGHT5
+.MARGINRIGHT5
 {
     margin-right: 5px;
 }
-.MARGIN-RIGHT10
+.MARGINRIGHT10
 {
     margin-right: 10px;
 }
-.MARGIN-RIGHT15
+.MARGINRIGHT15
 {
     margin-right: 15px;
 }
-.MARGIN-RIGHT20
+.MARGINRIGHT20
 {
     margin-right: 20px;
 }
-.MARGIN-RIGHT25
+.MARGINRIGHT25
 {
     margin-right: 25px;
 }
 /* Bottom ----------------------------- */
-.MARGIN-BOTTOM1
+.MARGINBOTTOM1
 {
     margin-bottom: 1px;
 }
-.MARGIN-BOTTOM2
+.MARGINBOTTOM2
 {
     margin-bottom: 2px;
 }
-.MARGIN-BOTTOM3
+.MARGINBOTTOM3
 {
     margin-bottom: 3px;
 }
-.MARGIN-BOTTOM4
+.MARGINBOTTOM4
 {
     margin-bottom: 4px;
 }
-.MARGIN-BOTTOM5
+.MARGINBOTTOM5
 {
     margin-bottom: 5px;
 }
-.MARGIN-BOTTOM10
+.MARGINBOTTOM10
 {
     margin-bottom: 10px;
 }
-.MARGIN-BOTTOM15
+.MARGINBOTTOM15
 {
     margin-bottom: 15px;
 }
-.MARGIN-BOTTOM20
+.MARGINBOTTOM20
 {
     margin-bottom: 20px;
 }
-.MARGIN-BOTTOM25
+.MARGINBOTTOM25
 {
     margin-bottom: 25px;
 }
 /* Left ------------------------------- */
-.MARGIN-LEFT1
+.MARGINLEFT1
 {
     margin-left: 1px;
 }
-.MARGIN-LEFT2
+.MARGINLEFT2
 {
     margin-left: 2px;
 }
-.MARGIN-LEFT3
+.MARGINLEFT3
 {
     margin-left: 3px;
 }
-.MARGIN-LEFT4
+.MARGINLEFT4
 {
     margin-left: 4px;
 }
-.MARGIN-LEFT5
+.MARGINLEFT5
 {
     margin-left: 5px;
 }
-.MARGIN-LEFT10
+.MARGINLEFT10
 {
     margin-left: 10px;
 }
-.MARGIN-LEFT15
+.MARGINLEFT15
 {
     margin-left: 15px;
 }
-.MARGIN-LEFT20
+.MARGINLEFT20
 {
     margin-left: 20px;
 }
-.MARGIN-LEFT25
+.MARGINLEFT25
 {
     margin-left: 25px;
 }
@@ -374,86 +374,86 @@
 
 /* Border --------------------------------------------------------------------- */
 /* Top -------------------------------- */
-.BORDER-TOP1
+.BORDERTOP1
 {
     border-top: 1px solid black;
 }
-.BORDER-TOP2
+.BORDERTOP2
 {
     border-top: 2px solid black;
 }
-.BORDER-TOP3
+.BORDERTOP3
 {
     border-top: 3px solid black;
 }
-.BORDER-TOP4
+.BORDERTOP4
 {
     border-top: 4px solid black;
 }
-.BORDER-TOP5
+.BORDERTOP5
 {
     border-top: 5px solid black;
 }
 /* Right ------------------------------ */
-.BORDER-RIGHT1
+.BORDERRIGHT1
 {
     border-right: 1px solid black;
 }
-.BORDER-RIGHT2
+.BORDERRIGHT2
 {
     border-right: 2px solid black;
 }
-.BORDER-RIGHT3
+.BORDERRIGHT3
 {
     border-right: 3px solid black;
 }
-.BORDER-RIGHT4
+.BORDERRIGHT4
 {
     border-right: 4px solid black;
 }
-.BORDER-RIGHT5
+.BORDERRIGHT5
 {
     border-right: 5px solid black;
 }
 /* Bottom ----------------------------- */
-.BORDER-BOTTOM1
+.BORDERBOTTOM1
 {
     border-bottom: 1px solid black;
 }
-.BORDER-BOTTOM2
+.BORDERBOTTOM2
 {
     border-bottom: 2px solid black;
 }
-.BORDER-BOTTOM3
+.BORDERBOTTOM3
 {
     border-bottom: 3px solid black;
 }
-.BORDER-BOTTOM4
+.BORDERBOTTOM4
 {
     border-bottom: 4px solid black;
 }
-.BORDER-BOTTOM5
+.BORDERBOTTOM5
 {
     border-bottom: 5px solid black;
 }
 /* Left ------------------------------- */
-.BORDER-LEFT1
+.BORDERLEFT1
 {
     border-left: 1px solid black;
 }
-.BORDER-LEFT2
+.BORDERLEFT2
 {
     border-left: 2px solid black;
 }
-.BORDER-LEFT3
+.BORDERLEFT3
 {
     border-left: 3px solid black;
 }
-.BORDER-LEFT4
+.BORDERLEFT4
 {
     border-left: 4px solid black;
 }
-.BORDER-LEFT5
+.BORDERLEFT5
 {
     border-left: 5px solid black;
 }
@@ -477,6 +477,150 @@
 .BORDER5
 {
     border: 5px solid black;
+}
+
+/* Font styles ---------------------------------------------------------------- */
+/* weight ----------------------------- */
+.BOLD
+{
+    font-weight: bold;
+}
+.BOLDER
+{
+    font-weight: bolder;
+}
+.LIGHTER
+{
+    font-weight: lighter;
+}
+/* style ------------------------------ */
+.ITALIC
+{
+    font-style: italic;
+}
+.OBLIQUE
+{
+    font-style: oblique;
+}
+/* colors ----------------------------- */
+.RED
+{
+    color: #FF0000;
+}
+.GREEN
+{
+    color: #00FF00;
+}
+.BLUE
+{
+    color: #0000FF;
+}
+.BLACK
+{
+    color: #000000;
+}
+.WHITE
+{
+    color: #FFFFFF;
+}
+/* fonts ------------------------------ */
+.SERIF
+{
+    font-family: serif;
+}
+.SANSSERIF
+{
+    font-family: sans-serif;
+}
+.MONOSPACE
+{
+    font-family: monospace;
+}
+/* fonts ------------------------------ */
+.REM025
+{
+    font-size: 0.25rem;
+}
+.REM050
+{
+    font-size: 0.5rem;
+}
+.REM075
+{
+    font-size: 0.75rem;
+}
+.REM100
+{
+    font-size: 1rem;
+}
+.REM125
+{
+    font-size: 1.25rem;
+}
+.REM150
+{
+    font-size: 1.5rem;
+}
+.REM175
+{
+    font-size: 1.75rem;
+}
+.REM200
+{
+    font-size: 2rem;
+}
+.REM225
+{
+    font-size: 2.25rem;
+}
+.REM250
+{
+    font-size: 2.5rem;
+}
+.REM275
+{
+    font-size: 2.75rem;
+}
+.REM300
+{
+    font-size: 3rem;
+}
+.REM325
+{
+    font-size: 3.25rem;
+}
+.REM350
+{
+    font-size: 3.5rem;
+}
+.REM375
+{
+    font-size: 3.75rem;
+}
+.REM400
+{
+    font-size: 4rem;
+}
+.REM425
+{
+    font-size: 4.25rem;
+}
+.REM450
+{
+    font-size: 4.5rem;
+}
+.REM475
+{
+    font-size: 4.75rem;
+}
+.REM500
+{
+    font-size: 5rem;
+}
+/* Small Caps ------------------------- */
+.SMALLCAPS
+{
+    font-variant: small-caps;
 }
 
 /* Height --------------------------------------------------------------------- */
