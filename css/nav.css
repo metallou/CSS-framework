@@ -1,19 +1,22 @@
-nav{
- display: block;
+body{
+  margin: 0;
 }
 
 .menu{
   margin: 0;
-  list-style-type: none;
+  padding: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .menu > li{
   display: inline-block;
   flex: 1;
-  text-align: center;
   background-color: black;
-  border: 2px solid white;
+  text-align: center;
+  min-width: 150px;
+  line-height: 200%;
+  border: 1px solid white;
 }
 
 .menu > li > a{
