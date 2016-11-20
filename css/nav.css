@@ -10,6 +10,10 @@ body{
   flex-wrap: wrap;
 }
 
+p.menu{
+  display: none;
+}
+
 .menu li ul{
   display: flex;
   flex-direction: column;
@@ -45,11 +49,44 @@ body{
   color: black;
 }
 
-.menu  li:hover, .menu li ul li:hover{
+.menu  li:hover, .menu li ul li:hover, .menu li:active, .menu li ul li:active{
   transform: scale(1.05);
   font-weight: bold;
 }
 
-.menu li:hover ul{
+.menu li:hover ul, .menu li:active ul{
   top: auto;
 }
+
+@media screen and (max-width: 640px){
+  p.menu{
+    display: inline-block;
+  }
+
+  p.menu a{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 300%;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+  ul.menu{
+    display: block;
+    width: 180px;
+    margin: auto;
+    position: absolute;
+    top: -999em;
+  }
+
+  ul.menu li{
+    position: relative;
+  }
+
+  .menu p:hover ul, .menu p:active ul{
+    top: auto;
+  }
