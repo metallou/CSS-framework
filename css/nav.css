@@ -2,7 +2,7 @@ body{
   margin: 0;
 }
 
-.menu{
+.menu, .menu li ul{
   margin: 0;
   padding: 0;
   list-style: none;
@@ -10,7 +10,7 @@ body{
   flex-wrap: wrap;
 }
 
-.menu-vertical{
+.menu li ul{
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -28,7 +28,7 @@ body{
   border: 1px solid white;
 }
 
-.menu-vertical li{
+.menu li ul li{
   position: relative;
 }
 
@@ -40,13 +40,13 @@ body{
   color: white;
 }
 
-.sous-menu a{
+.menu li ul li a{
   background: silver;
   color: black;
 }
 
-.menu  li:hover, .menu  li:active{
-  transform: scale(1.1);
+.menu  li:hover, .menu li ul li:hover{
+  transform: scale(1.05);
   font-weight: bold;
 }
 
