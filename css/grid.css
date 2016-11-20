@@ -1,6 +1,7 @@
-.left, .right, .top, .bottom, .middle, .topleft, .topright, .bottomleft, .bottomright{
-  position: absolute;
+.left, .right, .top, .bottom, .middle, .topleft, .topright, .bottomleft, .bottomright {
+    position: absolute;
 }
+
 
 /************************************************************POSITION START******************************/
 
@@ -17,8 +18,8 @@
 }
 
 .top {
-  left: 50%;
-  right: 50%;
+    left: 50%;
+    right: 50%;
     top: 0%;
 }
 
@@ -134,10 +135,60 @@
 
 /******************************CELL SIZE END******************************/
 
+
+/*************************************************************************/
+
+.maxcontentsize01 {
+    max-width: 10%;
+}
+
+.maxcontentsize02 {
+    max-width: 20%;
+}
+
+.maxcontentsize03 {
+    max-width: 30%;
+}
+
+.maxcontentsize04 {
+    max-width: 40%;
+}
+
+.maxcontentsize05 {
+    max-width: 50%;
+}
+
+.maxcontentsize06 {
+    max-width: 60%;
+}
+
+.maxcontentsize07 {
+    max-width: 70%;
+}
+
+.maxcontentsize08 {
+    max-width: 80%;
+}
+
+.maxcontentsize09 {
+    max-width: 90%;
+}
+
+.maxcontentsize1 {
+    max-width: 100%;
+}
+
+
+/*************************************************************************/
+
+.resizefromuser {
+    resize: both;
+    overflow: auto;
+}
+
 .cube {
     display: block;
     position: relative;
-    background-color: green;
     width: 500px;
     height: 500px;
     border: 1px solid blue;
