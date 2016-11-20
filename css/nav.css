@@ -1,0 +1,22 @@
+nav{
+ display: block;
+}
+
+.menu{
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.menu > li{
+  display: inline-block;
+  flex: 1;
+  text-align: center;
+  background-color: black;
+  border: 2px solid white;
+}
+
+.menu > li > a{
+  text-decoration: none;
+  color: white;
+}
