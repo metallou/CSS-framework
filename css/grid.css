@@ -40,3 +40,23 @@
     bottom: 0;
     right: 0;
 }
+.casesizex1{
+  width: 100%;
+  height: auto;
+}
+.casesizex2{
+  width: 200%;
+  height: auto;
+}
+.casesizex3{
+  width: 300%;
+  height: auto;
+}
+.casesizex4{
+  width: 400%;
+  height: auto;
+}
+.casesizex5{
+  width: 500%;
+  height: auto;
+}
