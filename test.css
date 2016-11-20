@@ -1,10 +1,30 @@
-body
-{
+body {
     font-size: 100%;
 }
 
-.util-container
-{
+.util-container {
     width: 250px;
     background-color: #FFFF00;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 1%;
+}
+
+body {
+    margin: 0;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+.lol {
+    background-color: purple;
+    border: 1px solid black;
+}
+
+.lel {
+    background-color: yellow;
 }
