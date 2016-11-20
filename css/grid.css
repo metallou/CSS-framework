@@ -1,3 +1,4 @@
+/************************************************************POSITION START******************************/
 .left {
     left: 0;
 }
@@ -40,6 +41,44 @@
     bottom: 0;
     right: 0;
 }
+/******************************POSITION END******************************/
+/******************************CELL SIZE START******************************/
+.casesizex01{
+  width: 10%;
+  height: 10%;
+}
+.casesizex02{
+  width: 20%;
+  height: 20%;
+}
+.casesizex03{
+  width: 0%;
+  height: 30%;
+}
+.casesizex04{
+  width: 40%;
+  height: 40%;
+}
+.casesizex05{
+  width: 50%;
+  height: 50%;
+}
+.casesizex06{
+  width: 60%;
+  height: 60%;
+}
+.casesizex07{
+  width: 70%;
+  height: 70%;
+}
+.casesizex08{
+  width: 80%;
+  height: 80%;
+}
+.casesizex09{
+  width: 90%;
+  height: 90%;
+}
 .casesizex1{
   width: 100%;
   height: 100%;
@@ -60,8 +99,13 @@
   width: 500%;
   height: 500%;
 }
+/******************************CELL SIZE END******************************/
+
+
+
 .grid{
   display: table;
+  width: 100%;
 background-color: blue;
 }
 .lol{
