@@ -9,7 +9,7 @@ body{
   flex-wrap: wrap;
 }
 
-.menu > li{
+.menu  li{
   display: inline-block;
   flex: 1;
   background-color: black;
@@ -19,7 +19,13 @@ body{
   border: 1px solid white;
 }
 
-.menu > li > a{
+.menu  a{
+  font-size: 1em;
   text-decoration: none;
   color: white;
+}
+
+.menu  li:hover, .menu  li:active{
+  transform: scale(1.1);
+  font-weight: bold;
 }
