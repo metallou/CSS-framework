@@ -52,7 +52,7 @@
   height: 20%;
 }
 .casesizex03{
-  width: 0%;
+  width: 30%;
   height: 30%;
 }
 .casesizex04{
@@ -100,14 +100,25 @@
   height: 500%;
 }
 /******************************CELL SIZE END******************************/
-
-
-
-.grid{
-  display: table;
-  width: 100%;
-background-color: blue;
+.tabletitle{
+      border: 1px solid black;
+      background-color: rgba(42, 12, 237, 0.9);
+}
+table
+{
+  border-collapse: collapse;
+  margin-top: 1%;
+}
+body{
+  margin: 0;
+}
+td, th
+{
+    border: 1px solid black;
 }
 .lol{
   background-color: purple;
+}
+.lel{
+  background-color: yellow;
 }
