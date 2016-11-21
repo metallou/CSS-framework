@@ -17,15 +17,16 @@ menu, nav, section, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
+/* Correction de l'affichage des balise HTML5 sur les anciens navigateurs */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
+/* Normalisation de la taille des lignes pour tout les navigateurs */
 body {
 	line-height: 1;
 }
+/* Suppression des puces sur les listes ordonnées et désordonnées */
 ol, ul {
 	list-style: none;
 }
