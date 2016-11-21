@@ -1,0 +1,45 @@
+/* Reset css */
+
+/* Mise à 0 des margins, paddings, border et outline
+    reset de la taille de police */
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, big, code, em, img, small, strike,
+strong, b, u, i, center, ol, ul, li,
+fieldset, form, label, legend, table,
+article, aside, footer, header,
+menu, nav, section, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* Correction de l'affichage des balise HTML5 sur les anciens navigateurs */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* Normalisation de la taille des lignes pour tout les navigateurs */
+body {
+	line-height: 1;
+}
+/* Suppression des puces sur les listes ordonnées et désordonnées */
+ol, ul {
+	list-style: none;
+}
+/* Fusion des bordures dans les tableaux */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* correction du display pour les anciens navigateurs */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
