@@ -30,6 +30,7 @@ body {
 ol, ul {
 	list-style: none;
 }
+/* Fusion des bordures dans les tableaux */
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
