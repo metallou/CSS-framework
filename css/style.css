@@ -19,6 +19,14 @@ h3
     background-color: #FFFF00;
 }
 
+div.rules-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 div.rule-container
 {
     display: flex;
