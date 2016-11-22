@@ -49,17 +49,16 @@ div.rule-show
 {
     flex-grow: 1;
     display: flex;
-    background-color: #0000FF;
+    background-color: #00FFFF;
 }
 
 div.rule-show div
 {
     box-sizing: border-box;
     width: 50%;
-    background-color: #00FFFF;
 }
 
 div.rule-show div:first-child
 {
-    margin: 2px;
+    border: 2px solid black;
 }
