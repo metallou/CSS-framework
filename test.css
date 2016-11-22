@@ -27,6 +27,9 @@ td, th {
 .lel {
     background-color: yellow;
 }
+.lal{
+    border: 1px solid black;
+}
 
 .ololbackground1 {
     background: linear-gradient(325deg, #1dddac, #941f1f);
