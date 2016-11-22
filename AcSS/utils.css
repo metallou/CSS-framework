@@ -502,42 +502,79 @@
 {
     font-style: oblique;
 }
-/* colors ----------------------------- */
-.RED
+/* font colors ----------------------------- */
+.FONTRED
 {
     color: #FF0000;
 }
-.GREEN
+.FONTGREEN
 {
     color: #00FF00;
 }
-.BLUE
+.FONTBLUE
 {
     color: #0000FF;
 }
-.YELLOW
+.FONTYELLOW
 {
     color: #FFFF00;
 }
-.BLACK
+.FONTBLACK
 {
     color: #000000;
 }
-.GREY25
+.FONTGREY25
 {
     color: #3F3F3F;
 }
-.GREY50
+.FONTGREY50
 {
    color: #7F7F7F; 
 }
-.GREY75
+.FONTGREY75
 {
     color: #BFBFBF;
 }
-.WHITE
+.FONTWHITE
 {
     color: #FFFFFF;
+}
+/* background-colors ----------------------------- */
+.BACKRED
+{
+    background-color: #FF0000;
+}
+.BACKGREEN
+{
+    background-color: #00FF00;
+}
+.BACKBLUE
+{
+    background-color: #0000FF;
+}
+.BACKYELLOW
+{
+    background-color: #FFFF00;
+}
+.BACKBLACK
+{
+    background-color: #000000;
+}
+.BACKGREY25
+{
+    background-color: #3F3F3F;
+}
+.BACKGREY50
+{
+   background-color: #7F7F7F; 
+}
+.BACKGREY75
+{
+    background-color: #BFBFBF;
+}
+.BACKWHITE
+{
+    background-color: #FFFFFF;
 }
 /* fonts ------------------------------ */
 .SERIF
