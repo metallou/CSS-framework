@@ -58,7 +58,6 @@ div.rule-show div
 {
     box-sizing: border-box;
     margin: 5px;
-    min-width: 33%;
-    max-width: 50%;
+    width: 50%;
     background-color: cyan;
 }
