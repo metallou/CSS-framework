@@ -36,21 +36,20 @@ div.rule-container
 
 div.rule-container div
 {
-    flex-grow: 1;
-    min-width: 1px;
-    max-width: 50%;
     min-height: 30px;
     box-sizing: border-box;
 }
 
 div.rule-text
 {
+    width: 25%;
     background-color: #FF0000;
 }
 
 div.rule-show
 {
     display: flex;
+    width: 75%;
     background-color: #0000FF;
 }
 
