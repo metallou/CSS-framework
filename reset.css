@@ -30,6 +30,13 @@ body {
 ol, ul {
 	list-style: none;
 }
+/* Suppression du style de base des liens */
+a {
+	text-decoration: none;
+	/* Retrait fond gris quand lien actif sur IE10 */
+	background-color: transparent;
+}
+
 /* Fusion des bordures dans les tableaux */
 table {
 	border-collapse: collapse;
