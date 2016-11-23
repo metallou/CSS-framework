@@ -137,15 +137,14 @@ transform: translate(-50%);
 /******************************CELL SIZE END******************************/
 
 /*********************************************************************************/
-.iwannabeatable{
+.flextable{
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
   background-color: blue;
   width: 100%;
-  
+
 }
-.imthetablechild{
+.flextablechild{
     background-color: purple;
     flex: 1;
 }
