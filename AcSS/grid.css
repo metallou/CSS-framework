@@ -199,8 +199,6 @@ transform: translate(-50%);
 .CUBE {
     display: block;
     position: relative;
-    width: 500px;
-    height: 500px;
     border: 1px solid blue;
 }
 .TABLETITLE {

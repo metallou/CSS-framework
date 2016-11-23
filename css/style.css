@@ -67,3 +67,10 @@ div.rule-show > div:first-child
 {
     border: 2px solid #3F3F3F;
 }
+.avec{
+  float: right;
+  padding-right: 20%;
+}
+.sans{
+padding-left: 40%;
+}
