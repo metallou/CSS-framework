@@ -24,7 +24,7 @@ article:last-child
 
 section
 {
-    border: 2px solid #3F3F3F;;
+    border: 2px solid #3F3F3F;
     width: 100%;
     margin-bottom: 10px;
     box-sizing: border-box;
@@ -65,69 +65,4 @@ aside img
 figure
 {
     margin: 0;
-}
-
-.FLEX
-{
-    display: flex;
-    width: 100%;
-}
-.FLEX>*
-{
-    flex-grow: 1;
-}
-
-.TOPLEFT, .TOP, .TOPRIGHT, .LEFT, .MIDDLE, .RIGHT, .BOTTOMLEFT, .BOTTOM, .BOTTOMRIGHT
-{
-    position: absolute;
-}
-.TOPLEFT
-{
-    top: 0;
-    left: 0;
-}
-.TOP
-{
-    top: 0;
-    left: 50%;
-    transform: translate(-50%);
-}
-.TOPRIGHT
-{
-    top: 0;
-    right: 0;
-}
-.LEFT
-{
-    top: 50%;
-    left: 0;
-    transform: translate(0, -50%);
-}
-.MIDDLE
-{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.RIGHT
-{
-    top: 50%;
-    right: 0;
-    transform: translate(0, -50%);
-}
-.BOTTOMLEFT
-{
-    bottom: 0;
-    left: 0;
-}
-.BOTTOM
-{
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
-}
-.BOTTOMRIGHT
-{
-    bottom: 0;
-    right: 0;
 }
