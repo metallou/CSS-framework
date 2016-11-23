@@ -147,43 +147,43 @@ transform: translate(-50%);
 
 /******************************MAX SIZE OF PARENT START******************************/
 
-.MAXCONTENTSIZE01 {
+.MAXCONTENTWIDTH01 {
     max-width: 10%;
 }
 
-.MAXCONTENTSIZE02 {
+.MAXCONTENTWIDTH02 {
     max-width: 20%;
 }
 
-.MAXCONTENTSIZE03 {
+.MAXCONTENTWIDTH03 {
     max-width: 30%;
 }
 
-.MAXCONTENTSIZE04 {
+.MAXCONTENTWIDTH04 {
     max-width: 40%;
 }
 
-.MAXCONTENTSIZE05 {
+.MAXCONTENTWIDTH05 {
     max-width: 50%;
 }
 
-.MAXCONTENTSIZE06 {
+.MAXCONTENTWIDTH06 {
     max-width: 60%;
 }
 
-.MAXCONTENTSIZE07 {
+.MAXCONTENTWIDTH07 {
     max-width: 70%;
 }
 
-.MAXCONTENTSIZE08 {
+.MAXCONTENTWIDTH08 {
     max-width: 80%;
 }
 
-.MAXCONTENTSIZE09 {
+.MAXCONTENTWIDTH09 {
     max-width: 90%;
 }
 
-.MAXCONTENTSIZE1 {
+.MAXCONTENTWIDTH1 {
     max-width: 100%;
 }
 
