@@ -1,3 +1,9 @@
+header, footer
+{
+    position: fixed;
+    z-index: 1;
+}
+
 main
 {
     width: 80%;
@@ -7,18 +13,28 @@ article
 {
     border-box: 3px solid #000000;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     box-sizing: border-box;
+}
+
+article:last-child
+{
+    margin-bottom: 0;
 }
 
 section
 {
     border: 2px solid #3F3F3F;;
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     box-sizing: border-box;
     background-color: #00BFBF;
     position: relative;
+}
+
+section:last-child
+{
+    margin-bottom: 0;
 }
 
 aside
