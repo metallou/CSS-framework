@@ -17,6 +17,10 @@ menu, nav, section, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+/* Mise au norme de la police de base */ 
+html {
+  font-family: sans-serif;
+}
 /* Correction de l'affichage des balise HTML5 sur les anciens navigateurs */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -30,6 +34,17 @@ body {
 ol, ul {
 	list-style: none;
 }
+/* Suppression du style de base des liens */
+a {
+	text-decoration: none;
+	/* Retrait fond gris quand lien actif sur IE10 */
+	background-color: transparent;
+}
+/* Suppression de bordure pour IE/8/9/10 */
+img {
+  border: 0;
+}
+
 /* Fusion des bordures dans les tableaux */
 table {
 	border-collapse: collapse;
