@@ -186,189 +186,188 @@
 
 /* Margin -------------------------------------------------------------------- */
 /* Top -------------------------------- */
-.MARGINTOP1, .MT1
+.MARGINTOP1, .MT1,
+.MARGINALL1, .MA1
 {
     margin-top: 1px;
 }
-.MARGINTOP2, .MT2
+.MARGINTOP2, .MT2,
+.MARGINALL2, .MA2
 {
     margin-top: 2px;
 }
-.MARGINTOP3, .MT3
+.MARGINTOP3, .MT3,
+.MARGINALL3, .MA3
 {
     margin-top: 3px;
 }
-.MARGINTOP4, .MT4
+.MARGINTOP4, .MT4,
+.MARGINALL4, .MA4
 {
     margin-top: 4px;
 }
-.MARGINTOP5, .MT5
+.MARGINTOP5, .MT5,
+.MARGINALL5, .MA5
 {
     margin-top: 5px;
 }
-.MARGINTOP10, .MT10
+.MARGINTOP10, .MT10,
+.MARGINALL10, .MA10
 {
     margin-top: 10px;
 }
-.MARGINTOP15, .MT15
+.MARGINTOP15, .MT15,
+.MARGINALL15, .MA15
 {
     margin-top: 15px;
 }
-.MARGINTOP20, .MT20
+.MARGINTOP20, .MT20,
+.MARGINALL20, .MA20
 {
     margin-top: 20px;
 }
-.MARGINTOP25, .MT25
+.MARGINTOP25, .MT25,
+.MARGINALL25, .MA25
 {
     margin-top: 25px;
 }
-/* Right ------------------------------ */
-.MARGINRIGHT1, .MR1
+/* Right -------------------------------- */
+.MARGINRIGHT1, .MR1,
+.MARGINALL1, .MA1
 {
     margin-right: 1px;
 }
-.MARGINRIGHT2, .MR2
+.MARGINRIGHT2, .MR2,
+.MARGINALL2, .MA2
 {
     margin-right: 2px;
 }
-.MARGINRIGHT3, .MR3
+.MARGINRIGHT3, .MR3,
+.MARGINALL3, .MA3
 {
     margin-right: 3px;
 }
-.MARGINRIGHT4, .MR4
+.MARGINRIGHT4, .MR4,
+.MARGINALL4, .MA4
 {
     margin-right: 4px;
 }
-.MARGINRIGHT5, .MR5
+.MARGINRIGHT5, .MR5,
+.MARGINALL5, .MA5
 {
     margin-right: 5px;
 }
-.MARGINRIGHT10, .MR10
+.MARGINRIGHT10, .MR10,
+.MARGINALL10, .MA10
 {
     margin-right: 10px;
 }
-.MARGINRIGHT15, .MR15
+.MARGINRIGHT15, .MR15,
+.MARGINALL15, .MA15
 {
     margin-right: 15px;
 }
-.MARGINRIGHT20, .MR20
+.MARGINRIGHT20, .MR20,
+.MARGINALL20, .MA20
 {
     margin-right: 20px;
 }
-.MARGINRIGHT25, .MR25
+.MARGINRIGHT25, .MR25,
+.MARGINALL25, .MA25
 {
     margin-right: 25px;
 }
-/* Bottom ----------------------------- */
-.MARGINBOTTOM1, .MB1
+/* Bottom -------------------------------- */
+.MARGINBOTTOM1, .MB1,
+.MARGINALL1, .MA1
 {
     margin-bottom: 1px;
 }
-.MARGINBOTTOM2, .MB2
+.MARGINBOTTOM2, .MB2,
+.MARGINALL2, .MA2
 {
     margin-bottom: 2px;
 }
-.MARGINBOTTOM3, .MB3
+.MARGINBOTTOM3, .MB3,
+.MARGINALL3, .MA3
 {
     margin-bottom: 3px;
 }
-.MARGINBOTTOM4, .MB4
+.MARGINBOTTOM4, .MB4,
+.MARGINALL4, .MA4
 {
     margin-bottom: 4px;
 }
-.MARGINBOTTOM5, .MB5
+.MARGINBOTTOM5, .MB5,
+.MARGINALL5, .MA5
 {
     margin-bottom: 5px;
 }
-.MARGINBOTTOM10, .MB10
+.MARGINBOTTOM10, .MB10,
+.MARGINALL10, .MA10
 {
     margin-bottom: 10px;
 }
-.MARGINBOTTOM15, .MB15
+.MARGINBOTTOM15, .MB15,
+.MARGINALL15, .MA15
 {
     margin-bottom: 15px;
 }
-.MARGINBOTTOM20, .MB20
+.MARGINBOTTOM20, .MB20,
+.MARGINALL20, .MA20
 {
     margin-bottom: 20px;
 }
-.MARGINBOTTOM25, .MB25
+.MARGINBOTTOM25, .MB25,
+.MARGINALL25, .MA25
 {
     margin-bottom: 25px;
 }
-/* Left ------------------------------- */
-.MARGINLEFT1, .ML1
+/* Left -------------------------------- */
+.MARGINLEFT1, .ML1,
+.MARGINALL1, .MA1
 {
     margin-left: 1px;
 }
-.MARGINLEFT2, .ML2
+.MARGINLEFT2, .ML2,
+.MARGINALL2, .MA2
 {
     margin-left: 2px;
 }
-.MARGINLEFT3, .ML3
+.MARGINLEFT3, .ML3,
+.MARGINALL3, .MA3
 {
     margin-left: 3px;
 }
-.MARGINLEFT4, .ML4
+.MARGINLEFT4, .ML4,
+.MARGINALL4, .MA4
 {
     margin-left: 4px;
 }
-.MARGINLEFT5, .ML5
+.MARGINLEFT5, .ML5,
+.MARGINALL5, .MA5
 {
     margin-left: 5px;
 }
-.MARGINLEFT10, .ML10
+.MARGINLEFT10, .ML10,
+.MARGINALL10, .MA10
 {
     margin-left: 10px;
 }
-.MARGINLEFT15, .ML15
+.MARGINLEFT15, .ML15,
+.MARGINALL15, .MA15
 {
     margin-left: 15px;
 }
-.MARGINLEFT20, .ML20
+.MARGINLEFT20, .ML20,
+.MARGINALL20, .MA20
 {
     margin-left: 20px;
 }
-.MARGINLEFT25, .ML25
-{
-    margin-left: 25px;
-}
-/* All -------------------------------- */
-.MARGINALL1, .MA1
-{
-    margin: 1px;
-}
-.MARGINALL2, .MA2
-{
-    margin: 2px;
-}
-.MARGINALL3, .MA3
-{
-    margin: 3px;
-}
-.MARGINALL4, .MA4
-{
-    margin: 4px;
-}
-.MARGINALL5, .MA5
-{
-    margin: 5px;
-}
-.MARGINALL10, .MA10
-{
-    margin: 10px;
-}
-.MARGINALL15, .MA15
-{
-    margin: 15px;
-}
-.MARGINALL20, .MA20
-{
-    margin: 20px;
-}
+.MARGINLEFT25, .ML25,
 .MARGINALL25, .MA25
 {
-    margin: 25px;
+    margin-left: 25px;
 }
 
 /* Border --------------------------------------------------------------------- */
