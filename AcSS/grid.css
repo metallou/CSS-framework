@@ -137,13 +137,13 @@
 
 /*********************************************************************************/
 
-.FLEX {
+.FLEXTABLE {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-.FLEX>* {
+.FLEXTABLE>* {
     flex: 1;
 }
 
