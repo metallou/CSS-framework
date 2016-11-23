@@ -89,39 +89,26 @@ padding-left: 40%;
     -moz-animation: AnimationName 15s ease infinite;
     animation: AnimationName 15s ease infinite;
 }
+.ololbackground3{
+background: linear-gradient(108deg, #1cf0b9, #fd9e00, #f90061, #1100f9, #44f900, #afbfa9, #03f2ff, #ff00f5, #000000);
+background-size: 1800% 1800%;
 
+-webkit-animation: AnimationName 9s ease infinite;
+-moz-animation: AnimationName 9s ease infinite;
+animation: AnimationName 9s ease infinite;
+}
 @-webkit-keyframes AnimationName {
-    0% {
-        background-position: 0% 14%
-    }
-    50% {
-        background-position: 100% 87%
-    }
-    100% {
-        background-position: 0% 14%
-    }
+   0%{background-position:0% 86%}
+   50%{background-position:100% 15%}
+   100%{background-position:0% 86%}
 }
-
 @-moz-keyframes AnimationName {
-    0% {
-        background-position: 0% 14%
-    }
-    50% {
-        background-position: 100% 87%
-    }
-    100% {
-        background-position: 0% 14%
-    }
+   0%{background-position:0% 86%}
+   50%{background-position:100% 15%}
+   100%{background-position:0% 86%}
 }
-
 @keyframes AnimationName {
-    0% {
-        background-position: 0% 14%
-    }
-    50% {
-        background-position: 100% 87%
-    }
-    100% {
-        background-position: 0% 14%
-    }
+   0%{background-position:0% 86%}
+   50%{background-position:100% 15%}
+   100%{background-position:0% 86%}
 }
