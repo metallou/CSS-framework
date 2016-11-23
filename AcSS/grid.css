@@ -144,7 +144,7 @@ transform: translate(-50%);
   width: 100%;
 
 }
-.flextablechild{
+.flextable1{
     background-color: purple;
     flex: 1;
 }

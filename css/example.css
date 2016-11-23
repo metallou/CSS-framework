@@ -1,0 +1,35 @@
+article
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+section
+{
+    border: 3px solid black;
+    width: 100%;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+h3
+{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #FFFF00;
+}
+
+div.rule-container
+{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+div.rule-container div
+{
+    flex-grow: 1;
+    min-width: 1px;
+    max-width: 50%;
+    box-sizing: border-box;
+}
