@@ -1,188 +1,187 @@
 /* Padding -------------------------------------------------------------------- */
 /* Top -------------------------------- */
-.PADDINGTOP1, .PT1
+.PADDINGTOP1, .PT1,
+.PADDINGALL1, .PA1
 {
     padding-top: 1px;
 }
-.PADDINGTOP2, .PT2
+.PADDINGTOP2, .PT2,
+.PADDINGALL2, .PA2
 {
     padding-top: 2px;
 }
-.PADDINGTOP3, .PT3
+.PADDINGTOP3, .PT3,
+.PADDINGALL3, .PA3
 {
     padding-top: 3px;
 }
-.PADDINGTOP4, .PT4
+.PADDINGTOP4, .PT4,
+.PADDINGALL4, .PA4
 {
     padding-top: 4px;
 }
-.PADDINGTOP5, .PT5
+.PADDINGTOP5, .PT5,
+.PADDINGALL5, .PA5
 {
     padding-top: 5px;
 }
-.PADDINGTOP10, .PT10
+.PADDINGTOP10, .PT10,
+.PADDINGALL10, .PA10
 {
     padding-top: 10px;
 }
-.PADDINGTOP15, .PT15
+.PADDINGTOP15, .PT15,
+.PADDINGALL15, .PA15
 {
     padding-top: 15px;
 }
-.PADDINGTOP20, .PT20
+.PADDINGTOP20, .PT20,
+.PADDINGALL20, .PA20
 {
     padding-top: 20px;
 }
-.PADDINGTOP25, .PT25
+.PADDINGTOP25, .PT25,
+.PADDINGALL25, .PA25
 {
     padding-top: 25px;
 }
-/* Right ------------------------------ */
-.PADDINGRIGHT1, .PR1
+/* Right -------------------------------- */
+.PADDINGRIGHT1, .PR1,
+.PADDINGALL1, .PA1
 {
     padding-right: 1px;
 }
-.PADDINGRIGHT2, .PR2
+.PADDINGRIGHT2, .PR2,
+.PADDINGALL2, .PA2
 {
     padding-right: 2px;
 }
-.PADDINGRIGHT3, .PR3
+.PADDINGRIGHT3, .PR3,
+.PADDINGALL3, .PA3
 {
     padding-right: 3px;
 }
-.PADDINGRIGHT4, .PR4
+.PADDINGRIGHT4, .PR4,
+.PADDINGALL4, .PA4
 {
     padding-right: 4px;
 }
-.PADDINGRIGHT5, .PR5
+.PADDINGRIGHT5, .PR5,
+.PADDINGALL5, .PA5
 {
     padding-right: 5px;
 }
-.PADDINGRIGHT10, .PR10
+.PADDINGRIGHT10, .PR10,
+.PADDINGALL10, .PA10
 {
     padding-right: 10px;
 }
-.PADDINGRIGHT15, .PR15
+.PADDINGRIGHT15, .PR15,
+.PADDINGALL15, .PA15
 {
     padding-right: 15px;
 }
-.PADDINGRIGHT20, .PR20
+.PADDINGRIGHT20, .PR20,
+.PADDINGALL20, .PA20
 {
     padding-right: 20px;
 }
-.PADDINGRIGHT25, .PR25
+.PADDINGRIGHT25, .PR25,
+.PADDINGALL25, .PA25
 {
     padding-right: 25px;
 }
-/* Bottom ----------------------------- */
-.PADDINGBOTTOM1, .PB1
+/* Bottom -------------------------------- */
+.PADDINGBOTTOM1, .PB1,
+.PADDINGALL1, .PA1
 {
     padding-bottom: 1px;
 }
-.PADDINGBOTTOM2, .PB2
+.PADDINGBOTTOM2, .PB2,
+.PADDINGALL2, .PA2
 {
     padding-bottom: 2px;
 }
-.PADDINGBOTTOM3, .PB3
+.PADDINGBOTTOM3, .PB3,
+.PADDINGALL3, .PA3
 {
     padding-bottom: 3px;
 }
-.PADDINGBOTTOM4, .PB4
+.PADDINGBOTTOM4, .PB4,
+.PADDINGALL4, .PA4
 {
     padding-bottom: 4px;
 }
-.PADDINGBOTTOM5, .PB5
+.PADDINGBOTTOM5, .PB5,
+.PADDINGALL5, .PA5
 {
     padding-bottom: 5px;
 }
-.PADDINGBOTTOM10, .PB10
+.PADDINGBOTTOM10, .PB10,
+.PADDINGALL10, .PA10
 {
     padding-bottom: 10px;
 }
-.PADDINGBOTTOM15, .PB15
+.PADDINGBOTTOM15, .PB15,
+.PADDINGALL15, .PA15
 {
     padding-bottom: 15px;
 }
-.PADDINGBOTTOM20, .PB20
+.PADDINGBOTTOM20, .PB20,
+.PADDINGALL20, .PA20
 {
     padding-bottom: 20px;
 }
-.PADDINGBOTTOM25, .PB25
+.PADDINGBOTTOM25, .PB25,
+.PADDINGALL25, .PA25
 {
     padding-bottom: 25px;
 }
-/* Left ------------------------------- */
-.PADDINGLEFT1, .PL1
+/* Left -------------------------------- */
+.PADDINGLEFT1, .PL1,
+.PADDINGALL1, .PA1
 {
     padding-left: 1px;
 }
-.PADDINGLEFT2, .PL2
+.PADDINGLEFT2, .PL2,
+.PADDINGALL2, .PA2
 {
     padding-left: 2px;
 }
-.PADDINGLEFT3, .PL3
+.PADDINGLEFT3, .PL3,
+.PADDINGALL3, .PA3
 {
     padding-left: 3px;
 }
-.PADDINGLEFT4, .PL4
+.PADDINGLEFT4, .PL4,
+.PADDINGALL4, .PA4
 {
     padding-left: 4px;
 }
-.PADDINGLEFT5, .PL5
+.PADDINGLEFT5, .PL5,
+.PADDINGALL5, .PA5
 {
     padding-left: 5px;
 }
-.PADDINGLEFT10, .PL10
+.PADDINGLEFT10, .PL10,
+.PADDINGALL10, .PA10
 {
     padding-left: 10px;
 }
-.PADDINGLEFT15, .PL15
+.PADDINGLEFT15, .PL15,
+.PADDINGALL15, .PA15
 {
     padding-left: 15px;
 }
-.PADDINGLEFT20, .PL20
+.PADDINGLEFT20, .PL20,
+.PADDINGALL20, .PA20
 {
     padding-left: 20px;
 }
-.PADDINGLEFT25, .PL25
-{
-    padding-left: 25px;
-}
-/* All -------------------------------- */
-.PADDINGALL1, .PA1
-{
-    padding: 1px;
-}
-.PADDINGALL2, .PA2
-{
-    padding: 2px;
-}
-.PADDINGALL3, .PA3
-{
-    padding: 3px;
-}
-.PADDINGALL4, .PA4
-{
-    padding: 4px;
-}
-.PADDINGALL5, .PA5
-{
-    padding: 5px;
-}
-.PADDINGALL10, .PA10
-{
-    padding: 10px;
-}
-.PADDINGALL15, .PA15
-{
-    padding: 15px;
-}
-.PADDINGALL20, .PA20
-{
-    padding: 20px;
-}
+.PADDINGLEFT25, .PL25,
 .PADDINGALL25, .PA25
 {
-    padding: 25px;
+    padding-left: 25px;
 }
 
 /* Margin -------------------------------------------------------------------- */
