@@ -1,0 +1,213 @@
+.left, .right, .top, .bottom, .middle, .topleft, .topright, .bottomleft, .bottomright {
+    position: absolute;
+}
+
+
+/************************************************************POSITION START******************************/
+
+.left {
+    left: 0%;
+    bottom: 50%;
+    top: 50%;
+        transform: translateY(-50%);
+}
+
+.right {
+    right: 0%;
+    bottom: 50%;
+    top: 50%;
+        transform: translateY(-50%);
+}
+
+.top {
+    left: 50%;
+    right: 50%;
+    top: 0%;
+transform: translate(-50%);
+}
+
+.bottom {
+    bottom: 0%;
+    left: 50%;
+        transform: translate(-50%);
+}
+
+.middle {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.topleft {
+    top: 0%;
+    left: 0%;
+}
+
+.topright {
+    top: 0;
+    right: 0;
+}
+
+.bottomleft {
+    bottom: 0;
+    left: 0;
+}
+
+.bottomright {
+    bottom: 0;
+    right: 0;
+}
+
+
+/******************************POSITION END******************************/
+
+
+/******************************CELL SIZE START******************************/
+
+.casesizex01 {
+    width: 10%;
+    height: 10%;
+}
+
+.casesizex02 {
+    width: 20%;
+    height: 20%;
+}
+
+.casesizex03 {
+    width: 30%;
+    height: 30%;
+}
+
+.casesizex04 {
+    width: 40%;
+    height: 40%;
+}
+
+.casesizex05 {
+    width: 50%;
+    height: 50%;
+}
+
+.casesizex06 {
+    width: 60%;
+    height: 60%;
+}
+
+.casesizex07 {
+    width: 70%;
+    height: 70%;
+}
+
+.casesizex08 {
+    width: 80%;
+    height: 80%;
+}
+
+.casesizex09 {
+    width: 90%;
+    height: 90%;
+}
+
+.casesizex1 {
+    width: 100%;
+    height: 100%;
+}
+
+.casesizex2 {
+    width: 200%;
+    height: 200%;
+}
+
+.casesizex3 {
+    width: 300%;
+    height: 300%;
+}
+
+.casesizex4 {
+    width: 400%;
+    height: 400%;
+}
+
+.casesizex5 {
+    width: 500%;
+    height: 500%;
+}
+
+
+/******************************CELL SIZE END******************************/
+
+/*********************************************************************************/
+.flextable{
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  width: 100%;
+
+}
+.flextablechild{
+    background-color: purple;
+    flex: 1;
+}
+/******************************************************************************/
+
+/******************************MAX SIZE OF PARENT START******************************/
+
+.maxcontentsize01 {
+    max-width: 10%;
+}
+
+.maxcontentsize02 {
+    max-width: 20%;
+}
+
+.maxcontentsize03 {
+    max-width: 30%;
+}
+
+.maxcontentsize04 {
+    max-width: 40%;
+}
+
+.maxcontentsize05 {
+    max-width: 50%;
+}
+
+.maxcontentsize06 {
+    max-width: 60%;
+}
+
+.maxcontentsize07 {
+    max-width: 70%;
+}
+
+.maxcontentsize08 {
+    max-width: 80%;
+}
+
+.maxcontentsize09 {
+    max-width: 90%;
+}
+
+.maxcontentsize1 {
+    max-width: 100%;
+}
+
+/*******************************MAX SIZE OF PARENT END******************************************/
+
+.resizefromuser {
+    resize: both;
+    overflow: auto;
+}
+
+.cube {
+    display: block;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 1px solid blue;
+}
+
+.tabletitle {
+    border: 1px solid black;
+    background-color: rgba(42, 12, 237, 0.9);
+}
