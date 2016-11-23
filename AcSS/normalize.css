@@ -31,7 +31,7 @@ header
 
 div#wrapper-main
 {
-
+    display: flex;
     box-sizing: border-box;
     width: 100%;
     margin: auto;
@@ -41,8 +41,8 @@ div#wrapper-main
 
 main
 {
+    flex-grow: 1;
     box-sizing: border-box;
-    width: 100%;
 }
 
 footer
