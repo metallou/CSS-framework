@@ -30,6 +30,7 @@ div.rules-container
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: #00FFFF;
     box-sizing: border-box;
 }
 
@@ -48,14 +49,14 @@ div.rule-container div
 div.rule-text
 {
     width: 30%;
-    background-color: #FF0000;
+    background-color: #FF7F7F;
 }
 
 div.rule-show
 {
     flex-grow: 1;
     display: flex;
-    background-color: #00FFFF;
+    background-color: #00BFBF;
 }
 
 div.rule-show div

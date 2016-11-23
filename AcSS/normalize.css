@@ -26,7 +26,7 @@ header
     left: 0;
     width: 100%;
     height: 100px;
-    background-color: #00FFFF;
+    background-color: #00BFBF;
 }
 
 div#wrapper-main
@@ -52,7 +52,7 @@ footer
     left: 0;
     width: 100%;
     height: 50px;
-    background-color: #00FFFF;
+    background-color: #00BFBF;
 }
 
 header h1, footer h2
