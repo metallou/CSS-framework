@@ -1,685 +1,677 @@
 /* Padding -------------------------------------------------------------------- */
 /* Top -------------------------------- */
-.PADDINGTOP1
+.PADDINGTOP1, .PT1
 {
     padding-top: 1px;
 }
-.PADDINGTOP2
+.PADDINGTOP2, .PT2
 {
     padding-top: 2px;
 }
-.PADDINGTOP3
+.PADDINGTOP3, .PT3
 {
     padding-top: 3px;
 }
-.PADDINGTOP4
+.PADDINGTOP4, .PT4
 {
     padding-top: 4px;
 }
-.PADDINGTOP5
+.PADDINGTOP5, .PT5
 {
     padding-top: 5px;
 }
-.PADDINGTOP10
+.PADDINGTOP10, .PT10
 {
     padding-top: 10px;
 }
-.PADDINGTOP15
+.PADDINGTOP15, .PT15
 {
     padding-top: 15px;
 }
-.PADDINGTOP20
+.PADDINGTOP20, .PT20
 {
     padding-top: 20px;
 }
-.PADDINGTOP25
+.PADDINGTOP25, .PT25
 {
     padding-top: 25px;
 }
 /* Right ------------------------------ */
-.PADDINGRIGHT1
+.PADDINGRIGHT1, .PR1
 {
     padding-right: 1px;
 }
-.PADDINGRIGHT2
+.PADDINGRIGHT2, .PR2
 {
     padding-right: 2px;
 }
-.PADDINGRIGHT3
+.PADDINGRIGHT3, .PR3
 {
     padding-right: 3px;
 }
-.PADDINGRIGHT4
+.PADDINGRIGHT4, .PR4
 {
     padding-right: 4px;
 }
-.PADDINGRIGHT5
+.PADDINGRIGHT5, .PR5
 {
     padding-right: 5px;
 }
-.PADDINGRIGHT10
+.PADDINGRIGHT10, .PR10
 {
     padding-right: 10px;
 }
-.PADDINGRIGHT15
+.PADDINGRIGHT15, .PR15
 {
     padding-right: 15px;
 }
-.PADDINGRIGHT20
+.PADDINGRIGHT20, .PR20
 {
     padding-right: 20px;
 }
-.PADDINGRIGHT25
+.PADDINGRIGHT25, .PR25
 {
     padding-right: 25px;
 }
 /* Bottom ----------------------------- */
-.PADDINGBOTTOM1
+.PADDINGBOTTOM1, .PB1
 {
     padding-bottom: 1px;
 }
-.PADDINGBOTTOM2
+.PADDINGBOTTOM2, .PB2
 {
     padding-bottom: 2px;
 }
-.PADDINGBOTTOM3
+.PADDINGBOTTOM3, .PB3
 {
     padding-bottom: 3px;
 }
-.PADDINGBOTTOM4
+.PADDINGBOTTOM4, .PB4
 {
     padding-bottom: 4px;
 }
-.PADDINGBOTTOM5
+.PADDINGBOTTOM5, .PB5
 {
     padding-bottom: 5px;
 }
-.PADDINGBOTTOM10
+.PADDINGBOTTOM10, .PB10
 {
     padding-bottom: 10px;
 }
-.PADDINGBOTTOM15
+.PADDINGBOTTOM15, .PB15
 {
     padding-bottom: 15px;
 }
-.PADDINGBOTTOM20
+.PADDINGBOTTOM20, .PB20
 {
     padding-bottom: 20px;
 }
-.PADDINGBOTTOM25
+.PADDINGBOTTOM25, .PB25
 {
     padding-bottom: 25px;
 }
 /* Left ------------------------------- */
-.PADDINGLEFT1
+.PADDINGLEFT1, .PL1
 {
     padding-left: 1px;
 }
-.PADDINGLEFT2
+.PADDINGLEFT2, .PL2
 {
     padding-left: 2px;
 }
-.PADDINGLEFT3
+.PADDINGLEFT3, .PL3
 {
     padding-left: 3px;
 }
-.PADDINGLEFT4
+.PADDINGLEFT4, .PL4
 {
     padding-left: 4px;
 }
-.PADDINGLEFT5
+.PADDINGLEFT5, .PL5
 {
     padding-left: 5px;
 }
-.PADDINGLEFT10
+.PADDINGLEFT10, .PL10
 {
     padding-left: 10px;
 }
-.PADDINGLEFT15
+.PADDINGLEFT15, .PL15
 {
     padding-left: 15px;
 }
-.PADDINGLEFT20
+.PADDINGLEFT20, .PL20
 {
     padding-left: 20px;
 }
-.PADDINGLEFT25
+.PADDINGLEFT25, .PL25
 {
     padding-left: 25px;
 }
 /* All -------------------------------- */
-.PADDING1
+.PADDINGALL1, .PA1
 {
     padding: 1px;
 }
-.PADDING2
+.PADDINGALL2, .PA2
 {
     padding: 2px;
 }
-.PADDING3
+.PADDINGALL3, .PA3
 {
     padding: 3px;
 }
-.PADDING4
+.PADDINGALL4, .PA4
 {
     padding: 4px;
 }
-.PADDING5
+.PADDINGALL5, .PA5
 {
     padding: 5px;
 }
-.PADDING10
+.PADDINGALL10, .PA10
 {
     padding: 10px;
 }
-.PADDING15
+.PADDINGALL15, .PA15
 {
     padding: 15px;
 }
-.PADDING20
+.PADDINGALL20, .PA20
 {
     padding: 20px;
 }
-.PADDING25
+.PADDINGALL25, .PA25
 {
     padding: 25px;
 }
 
 /* Margin -------------------------------------------------------------------- */
 /* Top -------------------------------- */
-.MARGINTOP1
+.MARGINTOP1, .MT1
 {
     margin-top: 1px;
 }
-.MARGINTOP2
+.MARGINTOP2, .MT2
 {
     margin-top: 2px;
 }
-.MARGINTOP3
+.MARGINTOP3, .MT3
 {
     margin-top: 3px;
 }
-.MARGINTOP4
+.MARGINTOP4, .MT4
 {
     margin-top: 4px;
 }
-.MARGINTOP5
+.MARGINTOP5, .MT5
 {
     margin-top: 5px;
 }
-.MARGINTOP10
+.MARGINTOP10, .MT10
 {
     margin-top: 10px;
 }
-.MARGINTOP15
+.MARGINTOP15, .MT15
 {
     margin-top: 15px;
 }
-.MARGINTOP20
+.MARGINTOP20, .MT20
 {
     margin-top: 20px;
 }
-.MARGINTOP25
+.MARGINTOP25, .MT25
 {
     margin-top: 25px;
 }
 /* Right ------------------------------ */
-.MARGINRIGHT1
+.MARGINRIGHT1, .MR1
 {
     margin-right: 1px;
 }
-.MARGINRIGHT2
+.MARGINRIGHT2, .MR2
 {
     margin-right: 2px;
 }
-.MARGINRIGHT3
+.MARGINRIGHT3, .MR3
 {
     margin-right: 3px;
 }
-.MARGINRIGHT4
+.MARGINRIGHT4, .MR4
 {
     margin-right: 4px;
 }
-.MARGINRIGHT5
+.MARGINRIGHT5, .MR5
 {
     margin-right: 5px;
 }
-.MARGINRIGHT10
+.MARGINRIGHT10, .MR10
 {
     margin-right: 10px;
 }
-.MARGINRIGHT15
+.MARGINRIGHT15, .MR15
 {
     margin-right: 15px;
 }
-.MARGINRIGHT20
+.MARGINRIGHT20, .MR20
 {
     margin-right: 20px;
 }
-.MARGINRIGHT25
+.MARGINRIGHT25, .MR25
 {
     margin-right: 25px;
 }
 /* Bottom ----------------------------- */
-.MARGINBOTTOM1
+.MARGINBOTTOM1, .MB1
 {
     margin-bottom: 1px;
 }
-.MARGINBOTTOM2
+.MARGINBOTTOM2, .MB2
 {
     margin-bottom: 2px;
 }
-.MARGINBOTTOM3
+.MARGINBOTTOM3, .MB3
 {
     margin-bottom: 3px;
 }
-.MARGINBOTTOM4
+.MARGINBOTTOM4, .MB4
 {
     margin-bottom: 4px;
 }
-.MARGINBOTTOM5
+.MARGINBOTTOM5, .MB5
 {
     margin-bottom: 5px;
 }
-.MARGINBOTTOM10
+.MARGINBOTTOM10, .MB10
 {
     margin-bottom: 10px;
 }
-.MARGINBOTTOM15
+.MARGINBOTTOM15, .MB15
 {
     margin-bottom: 15px;
 }
-.MARGINBOTTOM20
+.MARGINBOTTOM20, .MB20
 {
     margin-bottom: 20px;
 }
-.MARGINBOTTOM25
+.MARGINBOTTOM25, .MB25
 {
     margin-bottom: 25px;
 }
 /* Left ------------------------------- */
-.MARGINLEFT1
+.MARGINLEFT1, .ML1
 {
     margin-left: 1px;
 }
-.MARGINLEFT2
+.MARGINLEFT2, .ML2
 {
     margin-left: 2px;
 }
-.MARGINLEFT3
+.MARGINLEFT3, .ML3
 {
     margin-left: 3px;
 }
-.MARGINLEFT4
+.MARGINLEFT4, .ML4
 {
     margin-left: 4px;
 }
-.MARGINLEFT5
+.MARGINLEFT5, .ML5
 {
     margin-left: 5px;
 }
-.MARGINLEFT10
+.MARGINLEFT10, .ML10
 {
     margin-left: 10px;
 }
-.MARGINLEFT15
+.MARGINLEFT15, .ML15
 {
     margin-left: 15px;
 }
-.MARGINLEFT20
+.MARGINLEFT20, .ML20
 {
     margin-left: 20px;
 }
-.MARGINLEFT25
+.MARGINLEFT25, .ML25
 {
     margin-left: 25px;
 }
 /* All -------------------------------- */
-.MARGIN1
+.MARGINALL1, .MA1
 {
     margin: 1px;
 }
-.MARGIN2
+.MARGINALL2, .MA2
 {
     margin: 2px;
 }
-.MARGIN3
+.MARGINALL3, .MA3
 {
     margin: 3px;
 }
-.MARGIN4
+.MARGINALL4, .MA4
 {
     margin: 4px;
 }
-.MARGIN5
+.MARGINALL5, .MA5
 {
     margin: 5px;
 }
-.MARGIN10
+.MARGINALL10, .MA10
 {
     margin: 10px;
 }
-.MARGIN15
+.MARGINALL15, .MA15
 {
     margin: 15px;
 }
-.MARGIN20
+.MARGINALL20, .MA20
 {
     margin: 20px;
 }
-.MARGIN25
+.MARGINALL25, .MA25
 {
     margin: 25px;
 }
 
 /* Border --------------------------------------------------------------------- */
 /* Top -------------------------------- */
-.BORDERTOP1
+.BORDERTOP1, .BT1
 {
     border-top: 1px solid black;
 }
-.BORDERTOP2
+.BORDERTOP2, .BT2
 {
     border-top: 2px solid black;
 }
-.BORDERTOP3
+.BORDERTOP3, .BT3
 {
     border-top: 3px solid black;
 }
-.BORDERTOP4
+.BORDERTOP4, .BT4
 {
     border-top: 4px solid black;
 }
-.BORDERTOP5
+.BORDERTOP5, .BT5
 {
     border-top: 5px solid black;
 }
 /* Right ------------------------------ */
-.BORDERRIGHT1
+.BORDERRIGHT1, .BR1
 {
     border-right: 1px solid black;
 }
-.BORDERRIGHT2
+.BORDERRIGHT2, .BR2
 {
     border-right: 2px solid black;
 }
-.BORDERRIGHT3
+.BORDERRIGHT3, .BR3
 {
     border-right: 3px solid black;
 }
-.BORDERRIGHT4
+.BORDERRIGHT4, .BR4
 {
     border-right: 4px solid black;
 }
-.BORDERRIGHT5
+.BORDERRIGHT5, .BR5
 {
     border-right: 5px solid black;
 }
 /* Bottom ----------------------------- */
-.BORDERBOTTOM1
+.BORDERBOTTOM1, .BB1
 {
     border-bottom: 1px solid black;
 }
-.BORDERBOTTOM2
+.BORDERBOTTOM2, .BB2
 {
     border-bottom: 2px solid black;
 }
-.BORDERBOTTOM3
+.BORDERBOTTOM3, .BB3
 {
     border-bottom: 3px solid black;
 }
-.BORDERBOTTOM4
+.BORDERBOTTOM4, .BB4
 {
     border-bottom: 4px solid black;
 }
-.BORDERBOTTOM5
+.BORDERBOTTOM5, .BB5
 {
     border-bottom: 5px solid black;
 }
 /* Left ------------------------------- */
-.BORDERLEFT1
+.BORDERLEFT1, .BL1
 {
     border-left: 1px solid black;
 }
-.BORDERLEFT2
+.BORDERLEFT2, .BL2
 {
     border-left: 2px solid black;
 }
-.BORDERLEFT3
+.BORDERLEFT3, .BL3
 {
     border-left: 3px solid black;
 }
-.BORDERLEFT4
+.BORDERLEFT4, .BL4
 {
     border-left: 4px solid black;
 }
-.BORDERLEFT5
+.BORDERLEFT5, .BL5
 {
     border-left: 5px solid black;
 }
 /* All -------------------------------- */
-.BORDER1
+.BORDERALL1, .BA1
 {
     border: 1px solid black;
 }
-.BORDER2
+.BORDERALL2, .BA2
 {
     border: 2px solid black;
 }
-.BORDER3
+.BORDERALL3, .BA3
 {
     border: 3px solid black;
 }
-.BORDER4
+.BORDERALL4, .BA4
 {
     border: 4px solid black;
 }
-.BORDER5
+.BORDERALL5, .BA5
 {
     border: 5px solid black;
 }
 
 /* Font styles ---------------------------------------------------------------- */
 /* weight ----------------------------- */
-.BOLD
+.BOLD, .FWB
 {
     font-weight: bold;
 }
-.BOLDER
+.BOLDER, .FWB2
 {
     font-weight: bolder;
 }
-.LIGHTER
+.LIGHTER, .FWL
 {
     font-weight: lighter;
 }
 /* style ------------------------------ */
-.ITALIC
+.ITALIC, .FSI
 {
     font-style: italic;
 }
-.OBLIQUE
+.OBLIQUE, .FSO
 {
     font-style: oblique;
 }
 /* font colors ----------------------------- */
-.FONTRED
+.FONTRED, .FCR
 {
     color: #FF0000;
 }
-.FONTGREEN
+.FONTGREEN, .FCG
 {
     color: #00FF00;
 }
-.FONTBLUE
+.FONTBLUE, .FCB
 {
     color: #0000FF;
 }
-.FONTYELLOW
+.FONTYELLOW, .FCY
 {
     color: #FFFF00;
 }
-.FONTBLACK
+.FONTBLACK, .FC0
 {
     color: #000000;
 }
-.FONTGREY25
+.FONTGREY25, .FCG1
 {
     color: #3F3F3F;
 }
-.FONTGREY50
+.FONTGREY50, .FCG2
 {
    color: #7F7F7F; 
 }
-.FONTGREY75
+.FONTGREY75, .FCG3
 {
     color: #BFBFBF;
 }
-.FONTWHITE
+.FONTWHITE, .FCW
 {
     color: #FFFFFF;
 }
 /* background-colors ----------------------------- */
-.BACKRED
+.BACKRED, .BCR
 {
     background-color: #FF0000;
 }
-.BACKGREEN
+.BACKGREEN, .BCG
 {
     background-color: #00FF00;
 }
-.BACKBLUE
+.BACKBLUE, .BCB
 {
     background-color: #0000FF;
 }
-.BACKYELLOW
+.BACKYELLOW, .BCY
 {
     background-color: #FFFF00;
 }
-.BACKBLACK
+.BACKBLACK, .BC0
 {
     background-color: #000000;
 }
-.BACKGREY25
+.BACKGREY25, .BCG1
 {
     background-color: #3F3F3F;
 }
-.BACKGREY50
+.BACKGREY50, .BCG2
 {
    background-color: #7F7F7F; 
 }
-.BACKGREY75
+.BACKGREY75, .BCG3
 {
     background-color: #BFBFBF;
 }
-.BACKWHITE
+.BACKWHITE, .BCW
 {
     background-color: #FFFFFF;
 }
 /* fonts ------------------------------ */
-.SERIF
+.SERIF, .FFS
 {
     font-family: serif;
 }
-.SANSSERIF
+.SANSSERIF, .FFSS
 {
     font-family: sans-serif;
 }
-.MONOSPACE
+.MONOSPACE, .FFM
 {
     font-family: monospace;
 }
 /* fonts ------------------------------ */
-.REM025
+.REM025, .FS1
 {
     font-size: 0.25rem;
 }
-.REM050
+.REM050, .FS2
 {
     font-size: 0.5rem;
 }
-.REM075
+.REM075, .FS3
 {
     font-size: 0.75rem;
 }
-.REM100
+.REM100, .FS4
 {
     font-size: 1rem;
 }
-.REM125
+.REM125, .FS5
 {
     font-size: 1.25rem;
 }
-.REM150
+.REM150, .FS6
 {
     font-size: 1.5rem;
 }
-.REM175
+.REM175, .FS7
 {
     font-size: 1.75rem;
 }
-.REM200
+.REM200, .FS8
 {
     font-size: 2rem;
 }
-.REM225
+.REM225, .FS9
 {
     font-size: 2.25rem;
 }
-.REM250
+.REM250, .FS10
 {
     font-size: 2.5rem;
 }
-.REM275
+.REM275, .FS11
 {
     font-size: 2.75rem;
 }
-.REM300
+.REM300, .FS12
 {
     font-size: 3rem;
 }
-.REM325
+.REM325, .FS13
 {
     font-size: 3.25rem;
 }
-.REM350
+.REM350, .FS14
 {
     font-size: 3.5rem;
 }
-.REM375
+.REM375, .FS15
 {
     font-size: 3.75rem;
 }
-.REM400
+.REM400, .FS16
 {
     font-size: 4rem;
 }
-.REM425
+.REM425, .FS17
 {
     font-size: 4.25rem;
 }
-.REM450
+.REM450, .FS18
 {
     font-size: 4.5rem;
 }
-.REM475
+.REM475, .FS19
 {
     font-size: 4.75rem;
 }
-.REM500
+.REM500, .FS20
 {
     font-size: 5rem;
 }
 /* Small Caps ------------------------- */
-.SMALLCAPS
+.SMALLCAPS, .FVSC
 {
     font-variant: small-caps;
 }
-
-/* Height --------------------------------------------------------------------- */
-
-
-/* Width ---------------------------------------------------------------------- */
-
-
-
