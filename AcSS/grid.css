@@ -142,9 +142,8 @@ transform: translate(-50%);
   flex-direction: row;
   background-color: blue;
   width: 100%;
-
 }
-.flextable1{
+.flextable > *{
     background-color: purple;
     flex: 1;
 }
