@@ -4921,109 +4921,108 @@
 }
 /* SIMPLE BORDER (solid black) ------------------------------------------------ */
 /* Top -------------------------------- */
-.BORDERTOP1, .BT1
+.BORDERTOP1, .BT1,
+.BORDERALL1, .BA1
 {
     border-top: 1px solid black;
 }
-.BORDERTOP2, .BT2
+.BORDERTOP2, .BT2,
+.BORDERALL2, .BA2
 {
     border-top: 2px solid black;
 }
-.BORDERTOP3, .BT3
+.BORDERTOP3, .BT3,
+.BORDERALL3, .BA3
 {
     border-top: 3px solid black;
 }
-.BORDERTOP4, .BT4
+.BORDERTOP4, .BT4,
+.BORDERALL4, .BA4
 {
     border-top: 4px solid black;
 }
-.BORDERTOP5, .BT5
+.BORDERTOP5, .BT5,
+.BORDERALL5, .BA5
 {
     border-top: 5px solid black;
 }
 /* Right ------------------------------ */
-.BORDERRIGHT1, .BR1
+.BORDERRIGHT1, .BR1,
+.BORDERALL1, .BA1
 {
     border-right: 1px solid black;
 }
-.BORDERRIGHT2, .BR2
+.BORDERRIGHT2, .BR2,
+.BORDERALL2, .BA2
 {
     border-right: 2px solid black;
 }
-.BORDERRIGHT3, .BR3
+.BORDERRIGHT3, .BR3,
+.BORDERALL3, .BA3
 {
     border-right: 3px solid black;
 }
-.BORDERRIGHT4, .BR4
+.BORDERRIGHT4, .BR4,
+.BORDERALL4, .BA4
 {
     border-right: 4px solid black;
 }
-.BORDERRIGHT5, .BR5
+.BORDERRIGHT5, .BR5,
+.BORDERALL5, .BA5
 {
     border-right: 5px solid black;
 }
 /* Bottom ----------------------------- */
-.BORDERBOTTOM1, .BB1
+.BORDERBOTTOM1, .BB1,
+.BORDERALL1, .BA1
 {
     border-bottom: 1px solid black;
 }
-.BORDERBOTTOM2, .BB2
+.BORDERBOTTOM2, .BB2,
+.BORDERALL2, .BA2
 {
     border-bottom: 2px solid black;
 }
-.BORDERBOTTOM3, .BB3
+.BORDERBOTTOM3, .BB3,
+.BORDERALL3, .BA3
 {
     border-bottom: 3px solid black;
 }
-.BORDERBOTTOM4, .BB4
+.BORDERBOTTOM4, .BB4,
+.BORDERALL4, .BA4
 {
     border-bottom: 4px solid black;
 }
-.BORDERBOTTOM5, .BB5
+.BORDERBOTTOM5, .BB5,
+.BORDERALL5, .BA5
 {
     border-bottom: 5px solid black;
 }
 /* Left ------------------------------- */
-.BORDERLEFT1, .BL1
+.BORDERLEFT1, .BL1,
+.BORDERALL1, .BA1
 {
     border-left: 1px solid black;
 }
-.BORDERLEFT2, .BL2
+.BORDERLEFT2, .BL2,
+.BORDERALL2, .BA2
 {
     border-left: 2px solid black;
 }
-.BORDERLEFT3, .BL3
+.BORDERLEFT3, .BL3,
+.BORDERALL3, .BA3
 {
     border-left: 3px solid black;
 }
-.BORDERLEFT4, .BL4
+.BORDERLEFT4, .BL4,
+.BORDERALL4, .BA4
 {
     border-left: 4px solid black;
 }
-.BORDERLEFT5, .BL5
-{
-    border-left: 5px solid black;
-}
-/* All -------------------------------- */
-.BORDERALL1, .BA1
-{
-    border: 1px solid black;
-}
-.BORDERALL2, .BA2
-{
-    border: 2px solid black;
-}
-.BORDERALL3, .BA3
-{
-    border: 3px solid black;
-}
-.BORDERALL4, .BA4
-{
-    border: 4px solid black;
-}
+.BORDERLEFT5, .BL5,
 .BORDERALL5, .BA5
 {
-    border: 5px solid black;
+    border-left: 5px solid black;
 }
 
 /* Font styles ---------------------------------------------------------------- */
