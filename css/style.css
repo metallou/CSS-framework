@@ -74,3 +74,54 @@ div.rule-show > div:first-child
 .sans{
 padding-left: 40%;
 }
+.ololbackground1 {
+    background: linear-gradient(325deg, #1dddac, #941f1f);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+
+.ololbackground2 {
+    background: linear-gradient(325deg, #3866b4, #528c32, #a13337);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 14%
+    }
+    50% {
+        background-position: 100% 87%
+    }
+    100% {
+        background-position: 0% 14%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 14%
+    }
+    50% {
+        background-position: 100% 87%
+    }
+    100% {
+        background-position: 0% 14%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 14%
+    }
+    50% {
+        background-position: 100% 87%
+    }
+    100% {
+        background-position: 0% 14%
+    }
+}

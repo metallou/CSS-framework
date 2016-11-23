@@ -137,12 +137,10 @@ transform: translate(-50%);
 .FLEX{
   display: flex;
   flex-direction: row;
-  background-color: blue;
   width: 100%;
 
 }
 .FLEX >* {
-    background-color: purple;
     flex: 1;
 }
 /******************************************************************************/
