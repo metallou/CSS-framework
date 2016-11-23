@@ -7,21 +7,18 @@
 
 .left {
     left: 0%;
-    bottom: 50%;
     top: 50%;
         transform: translateY(-50%);
 }
 
 .right {
     right: 0%;
-    bottom: 50%;
     top: 50%;
         transform: translateY(-50%);
 }
 
 .top {
     left: 50%;
-    right: 50%;
     top: 0%;
 transform: translate(-50%);
 }
@@ -142,8 +139,9 @@ transform: translate(-50%);
   flex-direction: row;
   background-color: blue;
   width: 100%;
+
 }
-.flextable > *{
+.flextable >* {
     background-color: purple;
     flex: 1;
 }
