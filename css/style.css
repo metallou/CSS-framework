@@ -6,7 +6,6 @@ header, footer
 {
     position: fixed;
     z-index: 1;
-    background-color: #D153FF;
 }
 
 article
@@ -24,7 +23,6 @@ section
 }
 h2
 {
-  background-color: #7D60FF;
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -33,7 +31,7 @@ h3
     font-size: 1.5em;
     width: 100%;
     box-sizing: border-box;
-    background-color: #538FFF;
+    background-color: #003F3F;
     color: white;
 }
 
@@ -42,6 +40,7 @@ div.rules-container
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: #00FFFF;
     box-sizing: border-box;
 }
 
@@ -60,14 +59,14 @@ div.rule-container div
 div.rule-text
 {
     width: 30%;
-    background-color: #3E49BF;
+    background-color: #FF7F7F;
 }
 
 div.rule-show
 {
     flex-grow: 1;
     display: flex;
-    background-color: #7D60FF;
+    background-color: #00BFBF;
 }
 
 div.rule-show div
