@@ -97,6 +97,12 @@ background-size: 1800% 1800%;
 -moz-animation: AnimationName 9s ease infinite;
 animation: AnimationName 9s ease infinite;
 }
+.BG1{
+    background-color: #00FFFF;
+}
+.BG2{
+    background-color: purple;
+}
 @-webkit-keyframes AnimationName {
    0%{background-position:0% 86%}
    50%{background-position:100% 15%}
