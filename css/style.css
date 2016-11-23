@@ -74,6 +74,11 @@ div.rule-show > div:first-child
 .sans{
 padding-left: 40%;
 }
+.FLEXTABLECOLLUMN {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 .ololbackground1 {
     background: linear-gradient(325deg, #1dddac, #941f1f);
     background-size: 400% 400%;
