@@ -1,56 +1,56 @@
-.left, .right, .top, .bottom, .middle, .topleft, .topright, .bottomleft, .bottomright {
+.L, .R, .T, .B, .M, .TL, .TR, .BL, .BR, .LEFT, .RIGHT, .TOP, .BOTTOM, .MIDDLE, .TOPLEFT, .TOPRIGHT, .BOTTOMLEFT, .BOTTOMRIGHT {
     position: absolute;
 }
 
 
 /************************************************************POSITION START******************************/
 
-.left {
+.LEFT, .L{
     left: 0%;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.right {
+.RIGHT, .R{
     right: 0%;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.top {
+.TOP, .T{
     left: 50%;
     top: 0%;
     transform: translate(-50%);
 }
 
-.bottom {
+.BOTTOM, .B{
     bottom: 0%;
     left: 50%;
     transform: translate(-50%);
 }
 
-.middle {
+.MIDDLE, .M{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.topleft {
+.TOPLEFT, .TL{
     top: 0%;
     left: 0%;
 }
 
-.topright {
+.TOPRIGHT, .TR{
     top: 0;
     right: 0;
 }
 
-.bottomleft {
+.BOTTOMLEFT, .BL{
     bottom: 0;
     left: 0;
 }
 
-.bottomright {
+.BOTTOMRIGHT, .BR{
     bottom: 0;
     right: 0;
 }
@@ -61,52 +61,52 @@
 
 /******************************CELL SIZE START******************************/
 
-.CASESIZEx01 {
+.CASESIZEx01, .CSx01{
     width: 10%;
     height: 10%;
 }
 
-.CASESIZEx02 {
+.CASESIZEx02, .CSx02{
     width: 20%;
     height: 20%;
 }
 
-.CASESIZEx03 {
+.CASESIZEx03, .CSx03{
     width: 30%;
     height: 30%;
 }
 
-.CASESIZEx04 {
+.CASESIZEx04, .CSx04{
     width: 40%;
     height: 40%;
 }
 
-.CASESIZEx05 {
+.CASESIZEx05, .CSx05{
     width: 50%;
     height: 50%;
 }
 
-.CASESIZEx06 {
+.CASESIZEx06, .CSx06{
     width: 60%;
     height: 60%;
 }
 
-.CASESIZEx07 {
+.CASESIZEx07, .CSx07{
     width: 70%;
     height: 70%;
 }
 
-.CASESIZEx08 {
+.CASESIZEx08, .CSx08{
     width: 80%;
     height: 80%;
 }
 
-.CASESIZEx09 {
+.CASESIZEx09, .CSx09{
     width: 90%;
     height: 90%;
 }
 
-.CASESIZEx1 {
+.CASESIZEx1, .CSx1{
     width: 100%;
     height: 100%;
 }
@@ -117,13 +117,13 @@
 
 /*********************************************************************************/
 
-.FLEXTABLE .F{
+.FLEXTABLE, .F{
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-.FLEXTABLE>* .F>*{
+.FLEXTABLE>*, .F>*{
     flex: 1;
 }
 
@@ -133,81 +133,81 @@
 
 /******************************MAX SIZE OF PARENT START******************************/
 
-.MAXCONTENTWIDTH01 .MCW01{
+.MAXCONTENTWIDTH01, .MCW01{
     max-width: 10%;
 }
 
-.MAXCONTENTWIDTH02 .MCW02{
+.MAXCONTENTWIDTH02, .MCW02{
     max-width: 20%;
 }
 
-.MAXCONTENTWIDTH03 .MCW03{
+.MAXCONTENTWIDTH03, .MCW03{
     max-width: 30%;
 }
 
-.MAXCONTENTWIDTH04 .MCW04{
+.MAXCONTENTWIDTH04, .MCW04{
     max-width: 40%;
 }
 
-.MAXCONTENTWIDTH05 .MCW05{
+.MAXCONTENTWIDTH05, .MCW05{
     max-width: 50%;
 }
 
-.MAXCONTENTWIDTH06 .MCW06{
+.MAXCONTENTWIDTH06, .MCW06{
     max-width: 60%;
 }
 
-.MAXCONTENTWIDTH07 .MCW07{
+.MAXCONTENTWIDTH07, .MCW07{
     max-width: 70%;
 }
 
-.MAXCONTENTWIDTH08 .MCW08{
+.MAXCONTENTWIDTH08, .MCW08{
     max-width: 80%;
 }
 
-.MAXCONTENTWIDTH09 .MCW09{
+.MAXCONTENTWIDTH09, .MCW09{
     max-width: 90%;
 }
 
-.MAXCONTENTWIDTH1 .MCW1{
+.MAXCONTENTWIDTH1, .MCW1{
     max-width: 100%;
 }
 
-.MAXCONTENTHEIGHT01 {
+.MAXCONTENTHEIGHT01, .MCH01{
     max-height: 10%;
 }
 
-.MAXCONTENTHEIGHT02 {
+.MAXCONTENTHEIGHT02, .MCH02{
     max-height: 20%;
 }
 
-.MAXCONTENTHEIGHT03 {
+.MAXCONTENTHEIGHT03, .MCH03{
     max-height: 30%;
 }
 
-.MAXCONTENTHEIGHT04 {
+.MAXCONTENTHEIGHT04, .MCH04{
     max-height: 40%;
 }
 
-.MAXCONTENTHEIGHT05 {
+.MAXCONTENTHEIGHT05, .MCH05{
     max-height: 50%;
 }
 
-.MAXCONTENTHEIGHT06 {
+.MAXCONTENTHEIGHT06, .MCH06{
     max-height: 60%;
 }
 
-.MAXCONTENTHEIGHT07 {
+.MAXCONTENTHEIGHT07, .MCH07{
     max-height: 70%;
 }
 
-.MAXCONTENTHEIGHT08 {
+.MAXCONTENTHEIGHT08, .MCH08{
     max-height: 80%;
 }
-.MAXCONTENTHEIGHT09 {
+.MAXCONTENTHEIGHT09, .MCH09{
     max-height: 90%;
 }
-.MAXCONTENTHEIGHT1 {
+.MAXCONTENTHEIGHT1, .MCH1{
     max-height: 100%;
 }
 /*******************************MAX SIZE OF PARENT END******************************************/
