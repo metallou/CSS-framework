@@ -78,6 +78,9 @@ div.rule-show > div:first-child
 {
     border: 2px solid #3F3F3F;
 }
+.igonnabebigifyoupassonme:hover{
+        font-size: 1.5rem;
+}
 .avec{
   float: right;
   padding-right: 20%;
