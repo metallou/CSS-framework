@@ -212,7 +212,7 @@
 }
 /*******************************MAX SIZE OF PARENT END******************************************/
 
-.RESIZEFROMUSER {
+.RESIZEFROMUSER, .RFU {
     resize: both;
     overflow: auto;
 }
