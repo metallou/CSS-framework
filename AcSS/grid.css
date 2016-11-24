@@ -111,39 +111,19 @@
     height: 100%;
 }
 
-.CASESIZEx2 {
-    width: 200%;
-    height: 200%;
-}
-
-.CASESIZEx3 {
-    width: 300%;
-    height: 300%;
-}
-
-.CASESIZEx4 {
-    width: 400%;
-    height: 400%;
-}
-
-.CASESIZEx5 {
-    width: 500%;
-    height: 500%;
-}
-
 
 /******************************CELL SIZE END******************************/
 
 
 /*********************************************************************************/
 
-.FLEXTABLE {
+.FLEXTABLE .F{
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-.FLEXTABLE>* {
+.FLEXTABLE>* .F>*{
     flex: 1;
 }
 
@@ -153,43 +133,43 @@
 
 /******************************MAX SIZE OF PARENT START******************************/
 
-.MAXCONTENTWIDTH01 {
+.MAXCONTENTWIDTH01 .MCW01{
     max-width: 10%;
 }
 
-.MAXCONTENTWIDTH02 {
+.MAXCONTENTWIDTH02 .MCW02{
     max-width: 20%;
 }
 
-.MAXCONTENTWIDTH03 {
+.MAXCONTENTWIDTH03 .MCW03{
     max-width: 30%;
 }
 
-.MAXCONTENTWIDTH04 {
+.MAXCONTENTWIDTH04 .MCW04{
     max-width: 40%;
 }
 
-.MAXCONTENTWIDTH05 {
+.MAXCONTENTWIDTH05 .MCW05{
     max-width: 50%;
 }
 
-.MAXCONTENTWIDTH06 {
+.MAXCONTENTWIDTH06 .MCW06{
     max-width: 60%;
 }
 
-.MAXCONTENTWIDTH07 {
+.MAXCONTENTWIDTH07 .MCW07{
     max-width: 70%;
 }
 
-.MAXCONTENTWIDTH08 {
+.MAXCONTENTWIDTH08 .MCW08{
     max-width: 80%;
 }
 
-.MAXCONTENTWIDTH09 {
+.MAXCONTENTWIDTH09 .MCW09{
     max-width: 90%;
 }
 
-.MAXCONTENTWIDTH1 {
+.MAXCONTENTWIDTH1 .MCW1{
     max-width: 100%;
 }
 
