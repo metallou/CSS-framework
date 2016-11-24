@@ -117,13 +117,13 @@
 
 /*********************************************************************************/
 
-.FLEXTABLE, .F{
+.FLEXTABLE, .FT{
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-.FLEXTABLE>*, .F>*{
+.FLEXTABLE>*, .FT>*{
     flex: 1;
 }
 
