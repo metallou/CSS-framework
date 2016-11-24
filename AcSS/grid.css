@@ -1,197 +1,249 @@
-/***************************************************************POSITION START*/
-.LEFT, .RIGHT, .TOP, .BOTTOM, .MIDDLE, .TOPLEFT, .TOPRIGHT, .BOTTOMLEFT, .BOTTOMRIGHT,
-.L, .R, .T, .B, .M, .TL, .TR, .BL, .BR{
+.left, .right, .top, .bottom, .middle, .topleft, .topright, .bottomleft, .bottomright {
     position: absolute;
 }
 
-.LEFT, .L {
+
+/************************************************************POSITION START******************************/
+
+.left {
     left: 0%;
     top: 50%;
-        transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
-.RIGHT, .R {
+.right {
     right: 0%;
     top: 50%;
-        transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
-.TOP, .T {
+.top {
     left: 50%;
     top: 0%;
-transform: translate(-50%);
+    transform: translate(-50%);
 }
 
-.BOTTOM, .B {
+.bottom {
     bottom: 0%;
     left: 50%;
-        transform: translate(-50%);
+    transform: translate(-50%);
 }
 
-.MIDDLE, .M {
+.middle {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.TOPLEFT, .TL {
+
+.topleft {
     top: 0%;
     left: 0%;
 }
 
-.TOPRIGHT, .TR {
+.topright {
     top: 0;
     right: 0;
 }
 
-.BOTTOMLEFT, .BL {
+.bottomleft {
     bottom: 0;
     left: 0;
 }
 
-.BOTTOMRIGHT, .BR {
+.bottomright {
     bottom: 0;
     right: 0;
 }
-/*****************************************************************POSITION END*/
-/**************************************************************CELL SIZE START*/
-.casesizex01 {
+
+
+/******************************POSITION END******************************/
+
+
+/******************************CELL SIZE START******************************/
+
+.CASESIZEx01 {
     width: 10%;
     height: 10%;
 }
 
-.casesizex02 {
+.CASESIZEx02 {
     width: 20%;
     height: 20%;
 }
 
-.casesizex03 {
+.CASESIZEx03 {
     width: 30%;
     height: 30%;
 }
 
-.casesizex04 {
+.CASESIZEx04 {
     width: 40%;
     height: 40%;
 }
 
-.casesizex05 {
+.CASESIZEx05 {
     width: 50%;
     height: 50%;
 }
 
-.casesizex06 {
+.CASESIZEx06 {
     width: 60%;
     height: 60%;
 }
 
-.casesizex07 {
+.CASESIZEx07 {
     width: 70%;
     height: 70%;
 }
 
-.casesizex08 {
+.CASESIZEx08 {
     width: 80%;
     height: 80%;
 }
 
-.casesizex09 {
+.CASESIZEx09 {
     width: 90%;
     height: 90%;
 }
 
-.casesizex1 {
+.CASESIZEx1 {
     width: 100%;
     height: 100%;
 }
 
-.casesizex2 {
+.CASESIZEx2 {
     width: 200%;
     height: 200%;
 }
 
-.casesizex3 {
+.CASESIZEx3 {
     width: 300%;
     height: 300%;
 }
 
-.casesizex4 {
+.CASESIZEx4 {
     width: 400%;
     height: 400%;
 }
 
-.casesizex5 {
+.CASESIZEx5 {
     width: 500%;
     height: 500%;
 }
-/****************************************************************CELL SIZE END*/
-/*******************************************************************GRID START*/
-.FLEX, .F{
-  display: flex;
-  width: 100%;
 
-}
-.FLEX>*, .F>*{
-    flex-grow: 1;
-}
-/*********************************************************************GRID END*/
-/*****************************************************MAX SIZE OF PARENT START*/
 
-.maxcontentsize01 {
+/******************************CELL SIZE END******************************/
+
+
+/*********************************************************************************/
+
+.FLEXTABLE {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.FLEXTABLE>* {
+    flex: 1;
+}
+
+
+/******************************************************************************/
+
+
+/******************************MAX SIZE OF PARENT START******************************/
+
+.MAXCONTENTWIDTH01 {
     max-width: 10%;
 }
 
-.maxcontentsize02 {
+.MAXCONTENTWIDTH02 {
     max-width: 20%;
 }
 
-.maxcontentsize03 {
+.MAXCONTENTWIDTH03 {
     max-width: 30%;
 }
 
-.maxcontentsize04 {
+.MAXCONTENTWIDTH04 {
     max-width: 40%;
 }
 
-.maxcontentsize05 {
+.MAXCONTENTWIDTH05 {
     max-width: 50%;
 }
 
-.maxcontentsize06 {
+.MAXCONTENTWIDTH06 {
     max-width: 60%;
 }
 
-.maxcontentsize07 {
+.MAXCONTENTWIDTH07 {
     max-width: 70%;
 }
 
-.maxcontentsize08 {
+.MAXCONTENTWIDTH08 {
     max-width: 80%;
 }
 
-.maxcontentsize09 {
+.MAXCONTENTWIDTH09 {
     max-width: 90%;
 }
 
-.maxcontentsize1 {
+.MAXCONTENTWIDTH1 {
     max-width: 100%;
 }
-/*******************************************************MAX SIZE OF PARENT END*/
-/*******************************************************************TRUC START*/
-.resizefromuser {
+
+.MAXCONTENTHEIGHT01 {
+    max-height: 10%;
+}
+
+.MAXCONTENTHEIGHT02 {
+    max-height: 20%;
+}
+
+.MAXCONTENTHEIGHT03 {
+    max-height: 30%;
+}
+
+.MAXCONTENTHEIGHT04 {
+    max-height: 40%;
+}
+
+.MAXCONTENTHEIGHT05 {
+    max-height: 50%;
+}
+
+.MAXCONTENTHEIGHT06 {
+    max-height: 60%;
+}
+
+.MAXCONTENTHEIGHT07 {
+    max-height: 70%;
+}
+
+.MAXCONTENTHEIGHT08 {
+    max-height: 80%;
+}
+.MAXCONTENTHEIGHT09 {
+    max-height: 90%;
+}
+.MAXCONTENTHEIGHT1 {
+    max-height: 100%;
+}
+/*******************************MAX SIZE OF PARENT END******************************************/
+
+.RESIZEFROMUSER {
     resize: both;
     overflow: auto;
 }
 
-.cube {
+.CUBE {
     display: block;
     position: relative;
-    width: 500px;
-    height: 500px;
     border: 1px solid blue;
 }
 
-.tabletitle {
+.TABLETITLE {
     border: 1px solid black;
     background-color: rgba(42, 12, 237, 0.9);
 }
-/*********************************************************************TRUC END*/

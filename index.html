@@ -1,117 +1,323 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Projet SIMPLonMARS3 - CSS Framework">
-        <meta name="author" content="Okba, Jean-Jacques, Alice, Kevin">
-        <title>CSS Framework - PRESENTATION</title>
-        <link rel="stylesheet" href="AcSS/reset.css">
-        <link rel="stylesheet" href="AcSS/normalize.css">
-        <link rel="stylesheet" href="AcSS/nav.css">
-        <link rel="stylesheet" href="AcSS/grid.css">
-        <link rel="stylesheet" href="AcSS/utils.css">
 
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Projet SIMPLonMARS3 - CSS Framework">
+    <meta name="author" content="Okba, Jean-Jacques, Alice, Kevin">
+    <title>CSS Framework - PRESENTATION</title>
+    <link rel="stylesheet" href="AcSS/reset.css">
+    <link rel="stylesheet" href="AcSS/normalize.css">
+    <link rel="stylesheet" href="AcSS/nav.css">
+    <link rel="stylesheet" href="AcSS/grid.css">
+    <link rel="stylesheet" href="AcSS/utils.css">
 
-        <div id="wrapper">
-            <header>
-                <h1>Présentation du framework CSS</h1>
-            </header>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-            <div id="wrapper-main">
-              <main>
+<body>
+
+    <div id="wrapper">
+        <header>
+            <h1>Présentation du framework CSS</h1>
+        </header>
+
+        <div id="wrapper-main">
+            <main>
                 <article>
-                  <h2>Reset css</h2>
-                  <section>
-                      <h3>Reset de propriété</h3>
-                      <div class="rules-container">
-                          <div class="rule-container">
-                              <div class="rule-text" style="width:100%">
-                                  Mise à 0 des margins, paddings, border et outline.<br/>
-                                  Reset de la taille et des types de polices.</br>
-                                  Reset taile de ligne.</br>
-                                  Alignement de chaque balise sur les lignes parent.
-                              </div>
-                          </div>
-                      </div>
-                  </section>
-                  <section>
-                      <h3>Correction bug vieux navigateurs</h3>
-                      <div class="rules-container">
-                          <div class="rule-container">
-                              <div class="rule-text" style="width:100%">
-                                  Correction du display des balises HTML5.</br>
-                                  Suppression des bordures sur les balises IMG (présent par défaut sous IE/8/9/10).</br>
-                                  Suppression du fond gris quand les liens sont actif sur IE10.
+                    <h2>Reset css</h2>
+                    <section>
+                        <h3>Reset de propriété</h3>
+                        <div class="rules-container">
+                            <div class="rule-container">
+                                <div class="rule-text" style="width:100%">
+                                    Mise à 0 des margins, paddings, border et outline.<br/> Reset de la taille et des types de polices.</br>
+                                    Reset taile de ligne.</br>
+                                    Alignement de chaque balise sur les lignes parent.
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Correction bug vieux navigateurs</h3>
+                        <div class="rules-container">
+                            <div class="rule-container">
+                                <div class="rule-text" style="width:100%">
+                                    Correction du display des balises HTML5.</br>
+                                    Suppression des bordures sur les balises IMG (présent par défaut sous IE/8/9/10).</br>
+                                    Suppression du fond gris quand les liens sont actif sur IE10.
 
-                              </div>
-                          </div>
-                      </div>
-                  </section>
-                  <section>
-                      <h3>Modification de style par défaut</h3>
-                      <div class="rules-container">
-                          <div class="rule-container">
-                              <div class="rule-text" style="width:100%">
-                                  Suppression du style des listes ordonnées et désordonnées (suppression des puces).</br>
-                                  Fusion par défaut des bordures de tableau.</br>
-                              </div>
-                          </div>
-                      </div>
-                  </section>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Modification de style par défaut</h3>
+                        <div class="rules-container">
+                            <div class="rule-container">
+                                <div class="rule-text" style="width:100%">
+                                    Suppression du style des listes ordonnées et désordonnées (suppression des puces).</br>
+                                    Fusion par défaut des bordures de tableau.</br>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </article>
                 <article>
                     <h2>Règles de grid.css</h2>
                     <section>
-                        <h3>Titre</h3>
-                        <h4>Titre</h4>
+                        <h3>Les positions</h3>
+                        <h4><span class="sans">Sans règle css</span><span class="avec">Avec règle css</span></h4>
                         <div class="rule-container">
                             <div class="rule-text">
-                                Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
+                                Règle css de positionement, elles se mettent en (position:absolute) et dépendent donc de leurs premier parent ayant la propriété (position:relative). Noms des class:
+                                <li>.L = Met l'objet dans le coin gauche de son parent et se trouvant à 50% en dessous du top de ce même parrent.</li>
+                                <li>.R = Met l'objet dans le coin droit de son parent et se trouvant à 50% en dessous du top de ce même parrent.</li>
+                                <li>.T = Met l'objet dans la partie supérieur de son parent en étant centré avec un left:50%.</li>
+                                <li>.B = Met l'objet dans la partie inférieur de son parent en étant centré avec un left:50%.</li>
+                                <li>.M = Met l'objet au centre de son parent avec equidistance entre les deux pointd'un même axe Y ou X de son parent.</li>
+                                <li>.TL = Met l'objet dans le coin supérieur gauche de son parent.</li>
+                                <li>.TR = Met l'objet dans le coin supérieur droit de son parent.</li>
+                                <li>.BL = Met l'objet dans le coin inférieur gauche de son parent.</li>
+                                <li>.BR = Met l'objet dans le coin inférieur droit de son parent.</li>
                             </div>
                             <div class="rule-show">
-                                <div>
-                                    Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                <div class="CUBE">
+                                    <div>left</div>
+                                    <div>right</div>
+                                    <div>top</div>
+                                    <div>bottom</div>
+                                    <div>middle</div>
+                                    <div>topleft</div>
+                                    <div>topright</div>
+                                    <div>bottomleft</div>
+                                    <div>bottomright</div>
                                 </div>
-                                <div class="">
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                <div class="CUBE">
+                                    <div class="left">left</div>
+                                    <div class="right">right</div>
+                                    <div class="top">top</div>
+                                    <div class="bottom">bottom</div>
+                                    <div class="middle">middle</div>
+                                    <div class="topleft">topleft</div>
+                                    <div class="topright">topright</div>
+                                    <div class="bottomleft">bottomleft</div>
+                                    <div class="bottomright">bottomright</div>
                                 </div>
                             </div>
                         </div>
                     </section>
                     <section>
-                        <h3>Titre</h3>
-                        <h4>Titre</h4>
+                        <h3>Le .RESIZEFROMUSER</h3>
+                        <h4><span class="sans">Sans règle css</span><span class="avec">Avec règle css</span></h4>
                         <div class="rule-container">
                             <div class="rule-text">
-                                Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
+                                .RESIZEFROMUSER, cette class permet de rendre l'objet au quel cete classe est atribué capable d'être modifié par l'utilisateur permettre entre autre de changer la taille d'une div, article, etc......
                             </div>
                             <div class="rule-show">
-                                <div>
-                                    Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                <div class="CUBE">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </div>
-                                <div class="">
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                <div class="CUBE RESIZEFROMUSER">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </div>
                             </div>
                         </div>
                     </section>
                     <section>
-                        <h3>Titre</h3>
-                        <h4>Titre</h4>
-                        <div class="rule-container">
+                        <h3>Les .MAXCONTENTWIDTH</h3>
+                        <div class="FLEXTABLE">
                             <div class="rule-text">
-                                Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
+                                Cette class rend l'objet affecté incapable de dépasser la largeur de son parent d'un facteur plus ou moins important en lui attribuant une max width.
                             </div>
-                            <div class="rule-show">
-                                <div>
-                                    Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                            <div class="ololbackground3">
+                                <div class="ololbackground1 MAXCONTENTWIDTH01">
+                                    Je ne peut pas dépasser 10% de la largeur de mon parent.
                                 </div>
-                                <div class="">
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                <div class="ololbackground1 MAXCONTENTWIDTH02">
+                                    Je ne peut pas dépasser 20% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH03">
+                                    Je ne peut pas dépasser 30% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH04">
+                                    Je ne peut pas dépasser 40% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH05">
+                                    Je ne peut pas dépasser 50% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH06">
+                                    Je ne peut pas dépasser 60% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH07">
+                                    Je ne peut pas dépasser 70% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH08">
+                                    Je ne peut pas dépasser 80% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH09">
+                                    Je ne peut pas dépasser 90% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH1">
+                                    Je ne peut pas dépasser 100% de la largeur de mon parent.
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Les .MAXCONTENTHEIGHT</h3>
+                        <div class="FLEXTABLE">
+                            <div class="rule-text">
+                                Cette class rend l'objet affecté incapable de dépasser la largeur de son parent d'un facteur plus ou moins important en lui attribuant une max height. Cela peut causer dans certain cas des problème d'affichage nottament comme montré dans l'exemple le
+                                texte vient à sortir de son conteneur (car devenu trop petit pour le contenir) pour régler ce problème l'attribut overflow vous sera bien utile ;).
+                            </div>
+                            <div class="BG1 FLEXTABLE">
+                                <div class="BG2 MAXCONTENTHEIGHT01">
+                                    Je ne peut pas dépasser 10% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT02">
+                                    Je ne peut pas dépasser 20% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT03">
+                                    Je ne peut pas dépasser 30% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT04">
+                                    Je ne peut pas dépasser 40% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT05">
+                                    Je ne peut pas dépasser 50% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT06">
+                                    Je ne peut pas dépasser 60% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT07">
+                                    Je ne peut pas dépasser 70% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT08">
+                                    Je ne peut pas dépasser 80% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT09">
+                                    Je ne peut pas dépasser 90% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT1">
+                                    Je ne peut pas dépasser 100% de la hauteur de mon parent.
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <h3>Le .FLEXTABLE</h3>
+                        <div class="FLEXTABLE">
+                            <div class="rule-text">
+                                Cette class transforme l'objet et ses enfants direct de façon à ce que celà devienne un tableau avec X nombre de colonne (X étant égal au nombre d'enfant direct), il suffis ensuite de mettre d'autre div à l'intérieur des enfants de l'objet ayant la class
+                                .FLEXTABLE.
+                            </div>
+
+                            <div class="FLEXTABLE ololbackground1">
+                                <div class="ololbackground1">Colonne 1
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                </div>
+                                <div class="ololbackground2">Colonne 2
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                </div>
+                                <div class="ololbackground3">Colonne 3
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                </div>
+                                <div class="ololbackground1">Colonne 4
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                </div>
+                            </div>
+                    </section>
+                    <section>
+                        <h3>Les .CASESIZEx</h3>
+                        <div class="FLEXTABLE">
+                            <div class="rule-text MAXCONTENTWIDTH02">
+                                Cette class donne une taille en pourcent dépendante de la taille de son conteneur, contrairement au max width/height ici l'objet peut dépasser de son conteneur notamment lorsqu'il est à une taille supérieure à 100% de son conteneur. Cela peut causer dans
+                                certain cas des problème d'affichage nottament comme montré dans l'exemple le texte vient à sortir de son conteneur (car devenu trop petit pour le contenir) pour régler ce problème l'attribut overflow vous sera bien utile
+                                ;).
+                            </div>
+                            <div class="BG1 FLEXTABLECOLLUMN">
+                                <div class="BG2 CASESIZEx01">
+                                    Je fais 10% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx02">
+                                    Je fais 20% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx03">
+                                    Je fais 30% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx04">
+                                    Je fais 40% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx05">
+                                    Je fais 50% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx06">
+                                    Je fais 60% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx07">
+                                    Je fais 70% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx08">
+                                    Je fais 80% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx09">
+                                    Je fais 90% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx1">
+                                    Je fais 100% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx2">
+                                    Je fais 200% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx3">
+                                    Je fais 300% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx4">
+                                    Je fais 400% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx5">
+                                    Je fais 500% de la taille de mon conteneur.
                                 </div>
                             </div>
                         </div>
@@ -180,9 +386,7 @@
                         <div class="rules-container">
                             <div class="rule-container">
                                 <div class="rule-text" style="width:100%">
-                                    Ajouter la classe à l'élément désiré<br>
-                                    c'est tout<br>
-                                    (toutes les règles existent en version courte)<br>
+                                    Ajouter la classe à l'élément désiré<br> c'est tout<br> (toutes les règles existent en version courte)<br>
                                 </div>
                             </div>
                         </div>
@@ -1532,69 +1736,61 @@
                         <div class="rules-container">
                             <div class="rule-container">
                                 <div class="rule-text" style="width:100%">
-                                    Il existe MOULT autres règles pour les bordures, suivant l'expression régulière suivante:<br>
-                                    BORDER[side][style][color][width]<br>
-                                    ou<br>
-                                    B[si][st][c][width]<br>
+                                    Il existe MOULT autres règles pour les bordures, suivant l'expression régulière suivante:<br> BORDER[side][style][color][width]
+                                    <br> ou
+                                    <br> B[si][st][c][width]
                                     <br>
                                     <br>
-                                    Avec [side] devant valoir, au choix:<br>
-                                    TOP<br>
-                                    RIGHT<br>
-                                    BOTTOM<br>
-                                    LEFT<br>
-                                    ALL<br>
+                                    <br> Avec [side] devant valoir, au choix:<br> TOP
+                                    <br> RIGHT
+                                    <br> BOTTOM
+                                    <br> LEFT
+                                    <br> ALL
                                     <br>
-                                    Avec [s] devant valoir, au choix:<br>
-                                    T<br>
-                                    R<br>
-                                    B<br>
-                                    L<br>
-                                    A<br>
+                                    <br> Avec [s] devant valoir, au choix:<br> T
+                                    <br> R
+                                    <br> B
+                                    <br> L
+                                    <br> A
                                     <br>
-                                    Avec [style] devant valoir, au choix:<br>
-                                    DASHED<br>
-                                    DOUBLE<br>
-                                    DOTTED<br>
-                                    SOLID<br>
+                                    <br> Avec [style] devant valoir, au choix:<br> DASHED
+                                    <br> DOUBLE
+                                    <br> DOTTED
+                                    <br> SOLID
                                     <br>
-                                    Avec [st] devant valoir, au choix:<br>
-                                    DA<br>
-                                    DO<br>
-                                    DT<br>
-                                    SO<br>
+                                    <br> Avec [st] devant valoir, au choix:<br> DA
+                                    <br> DO
+                                    <br> DT
+                                    <br> SO
                                     <br>
-                                    Avec [color] devant valoir, au choix:<br>
-                                    RED<br>
-                                    GREEN<br>
-                                    BLUE<br>
-                                    YELLOW<br>
-                                    BLACK<br>
-                                    WHITE<br>
-                                    GREY1<br>
-                                    GREY2<br>
-                                    GREY3<br>
+                                    <br> Avec [color] devant valoir, au choix:<br> RED
+                                    <br> GREEN
+                                    <br> BLUE
+                                    <br> YELLOW
+                                    <br> BLACK
+                                    <br> WHITE
+                                    <br> GREY1
+                                    <br> GREY2
+                                    <br> GREY3
                                     <br>
-                                    Avec [c] devant valoir, au choix:<br>
-                                    R<br>
-                                    G<br>
-                                    B<br>
-                                    Y<br>
-                                    0<br>
-                                    W<br>
-                                    G1<br>
-                                    G2<br>
-                                    G3<br>
+                                    <br> Avec [c] devant valoir, au choix:<br> R
+                                    <br> G
+                                    <br> B
+                                    <br> Y
+                                    <br> 0
+                                    <br> W
+                                    <br> G1
+                                    <br> G2
+                                    <br> G3
                                     <br>
-                                    Avec [side] devant valoir, au choix:<br>
-                                    1<br>
-                                    2<br>
-                                    3<br>
-                                    4<br>
-                                    5<br>
+                                    <br> Avec [side] devant valoir, au choix:<br> 1
+                                    <br> 2
+                                    <br> 3
+                                    <br> 4
+                                    <br> 5
                                     <br>
                                     <br>
-                                    (les bordures simples présentées plus haut prennent pour valeur [style]=SOLID et [color]=BLACK en réduisant donc la syntaxe)
+                                    <br> (les bordures simples présentées plus haut prennent pour valeur [style]=SOLID et [color]=BLACK en réduisant donc la syntaxe)
                                 </div>
                             </div>
                         </div>
@@ -2152,7 +2348,7 @@
                         </div>
                     </section>
                 </article>
-                </main>
+            </main>
             </div>
 
             <footer>
@@ -2186,5 +2382,6 @@
             </section>
         -->
 
-    </body>
+</body>
+
 </html>
