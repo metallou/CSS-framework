@@ -1,0 +1,118 @@
+body, nav.menu, nav.menu label p, .menu ul, .menu li, .menu label, .menu input, .menu a{
+  margin: 0;
+  padding: 0;
+}
+
+nav.menu{
+  display: flex;
+  position: relative;
+}
+
+.menu ul{
+  position: relative;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu  li{
+  display: inline-block;
+  flex: 1;
+  text-align: center;
+  min-width: 180px;
+  max-width: 250px;
+  line-height: 200%;
+  height: 2em;
+  border: 1px solid white;
+  background-color: black;
+}
+
+.menu label, .menu a{
+  position: relative;
+  display: block;
+  font-size: 1em;
+  text-decoration: none;
+  color: white;
+}
+
+.menu label{
+  cursor: pointer;
+  display: block;
+}
+
+.menu label + input{
+  display: none; /* hide the checkboxes */
+}
+
+.menu ul ul li a, .menu ul ul li label{
+  position: relative;
+  background: grey;
+  color: black;
+}
+
+.menu ul ul ul li a, .menu ul ul ul li label{
+  position: relative;
+  background-color: silver;
+  color: black;
+}
+
+.menu ul ul{
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  display: none;
+}
+
+nav.menu > ul:hover, .menu  li:hover, nav.menu > ul:active, .menu li:active{
+  transform: scale(1.05);
+  font-weight: bold;
+}
+
+.menu label + input:checked + ul{
+  display: flex;
+}
+
+/*media query*/
+
+@media screen and (max-width: 640px){
+  nav.menu > label p{
+    position: relative;
+    display: inline-block;
+    padding: 1.6vh;
+    padding-bottom: 2.3vh;
+    box-sizing: content-box;
+    width: 6.5vh;
+    height: 6vh;
+    line-height: 1.4vh;
+    font-weight: bolder;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+  .menu ul{
+    flex-direction: column;
+    position: absolute;
+    top: 9.9vh;
+    left: 0;
+    width: 100%;
+    display: flex;
+    display: none;
+  }
+
+  .menu li{
+    width: 180px;
+    display: block;
+    top: 2em;
+    left: 0;
+  }
+
+  .menu ul ul{
+    position: relative;
+    top: auto;
+  }
+
+  .menu label + input:checked + ul{
+    display: flex;
+  }
