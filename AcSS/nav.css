@@ -2,65 +2,87 @@ body{
   margin: 0;
 }
 
-nav.menu, .menu p, .menu p a, ul.menu, .menu li ul{
+nav.menu, .menu p, .menu p a, .menu div, .menu ul, .menu label, .menu input, .menu li{
   margin: 0;
   padding: 0;
 }
 
-ul.menu, .menu li ul{
-  z-index: 1;
-  list-style: none;
+nav.menu{
   display: flex;
+}
+
+nav.menu div{
+  z-index: 1;
+  flex: 1;
+  justify-content: center;
   flex-wrap: wrap;
+  display: flex;
 }
 
 .menu p a{
   display: none;
 }
 
-.menu li ul{
-  display: flex;
+.menu div div{
   flex-direction: column;
   width: 100%;
-  margin: auto;
-  position: absolute;
-  top: -999em;
 }
 
-.menu  li{
+.menu label{
+  cursor: pointer;
+  display: block;
+}
+.menu label + input{
+  display: none; /* hide the checkboxes */
+}
+.menu label + input + ul, .menu + input + div{
+  display: none;
+}
+
+.menu  li, .menu label{
   display: inline-block;
   flex: 1;
   text-align: center;
   min-width: 180px;
+  max-width: 250px;
   line-height: 200%;
   border: 1px solid white;
+  background-color: black;
 }
 
-.menu li ul li{
+.menu ul li, .menu div label{
   position: relative;
+  top: auto;
+  left: 0;
 }
 
-.menu  a{
+.menu  a, .menu label{
   display: block;
   font-size: 1em;
   text-decoration: none;
-  background-color: black;
   color: white;
 }
 
-.menu li ul li a{
-  background: silver;
+.menu ul ul li a, .menu div div label{
+  background: grey;
   color: black;
 }
 
-.menu  li:hover, .menu li ul li:hover, .menu li:active, .menu li ul li:active, .menu p:hover, .menu p:active{
+.menu ul ul ul li a, .menu div div div label{
+  background-color: silver;
+  color: black;
+}
+
+.menu label:hover, .menu  li:hover, .menu p:hover, .menu label:active, .menu li:active, .menu p:active{
   transform: scale(1.05);
   font-weight: bold;
 }
 
-.menu li:hover ul, .menu li:active ul{
-  top: auto;
+.menu label + input:checked + ul, .menu label + input:checked + div{
+  display: flex;
 }
+
+
 
 @media screen and (max-width: 640px){
   nav.menu{
@@ -74,13 +96,13 @@ ul.menu, .menu li ul{
     display: block;
     width: 50px;
     height: 50px;
-    line-height: 300%;
+    line-height: 600%;
     text-align: center;
     background-color: black;
     color: white;
   }
 
-  ul.menu{
+  nav.menu > ul{
     display: flex;
     flex-direction: column;
     width: 180px;
@@ -89,16 +111,17 @@ ul.menu, .menu li ul{
     top: -999em;
   }
 
-  ul.menu > li{
+  nav.menu > ul > li{
     position: relative;
   }
 
-  nav.menu:hover ul.menu, nav.menu:active ul.menu{
+  nav.menu:hover > ul, nav.menu:active > ul{
     top: 50px;
     left: 0;
   }
 
-  .menu li:hover ul, .menu li:active ul{
-    top: -1px;
-    left: 176px;
+  nav.menu > ul > li:hover > ul, nav.menu > ul > li:active > ul{
+    position: relative;
+    top: auto;
+    left: 0;
   }
