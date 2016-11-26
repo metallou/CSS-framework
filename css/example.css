@@ -1,0 +1,53 @@
+header, footer
+{
+    position: fixed;
+    z-index: 1;
+}
+
+main
+{
+    width: 80%;
+}
+
+article
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+section
+{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #00BFBF;
+    position: relative;
+}
+
+aside
+{
+    width: 20%;
+    box-sizing: border-box;
+    background-color: #007F7F;
+}
+
+figure
+{
+    width: 100%;
+}
+
+main img
+{
+    max-width: 100px;
+}
+
+aside img
+{
+    width: 100%;
+}
+
+
+/* To delete when framework is implemented -------------------------------------------------------- */
+figure
+{
+    margin: 0;
+}

@@ -1,195 +1,2380 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>CSS Framework - PRESENTATION</title>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" href="css/grid.css">
-        <link rel="stylesheet" href="css/utils/css">
 
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Projet SIMPLonMARS3 - CSS Framework">
+    <meta name="author" content="Okba, Jean-Jacques, Alice, Kevin">
+    <title>CSS Framework - PRESENTATION</title>
+    <link rel="stylesheet" href="AcSS/reset.css">
+    <link rel="stylesheet" href="AcSS/normalize.css">
+    <link rel="stylesheet" href="AcSS/nav.css">
+    <link rel="stylesheet" href="AcSS/grid.css">
+    <link rel="stylesheet" href="AcSS/utils.css">
 
-        <div id="wrapper">
-            <header>
-                <h1>Présentation du framework CSS</h1>
-            </header>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
+<body>
+
+    <div id="wrapper">
+        <header>
+            <h1>Présentation du framework CSS</h1>
+        </header>
+
+        <div id="wrapper-main">
             <main>
-            <article>
-                <h2>Règles de reset.css</h2>
-                <section>
-                    <h3>Titre</h3>
-                    <div class="rule-container">
-                        <div style="background-color:red">
-                            Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
+                <article>
+                    <h2>Reset css</h2>
+                    <section>
+                        <h3>Reset de propriété</h3>
+                        <div class="rules-container">
+                            <div class="rule-container">
+                                <div class="rule-text" style="width:100%">
+                                    Mise à 0 des margins, paddings, border et outline.<br/> Reset de la taille et des types de polices.</br>
+                                    Reset taile de ligne.</br>
+                                    Alignement de chaque balise sur les lignes parent.
+                                </div>
+                            </div>
                         </div>
-                        <div style="background-color:blue">
-                            Salut
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <h3>Titre</h3>
-                    <div class="rule-container">
-                        <div style="background-color:red">
-                            Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
-                        </div>
-                        <div style="background-color:blue">
-                            Salut
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <h3>Titre</h3>
-                    <div class="rule-container">
-                        <div style="background-color:red">
-                            Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
-                        </div>
-                        <div style="background-color:blue">
-                            Salut
-                        </div>
-                    </div>
-                </section>
-            </article>
+                    </section>
+                    <section>
+                        <h3>Correction bug vieux navigateurs</h3>
+                        <div class="rules-container">
+                            <div class="rule-container">
+                                <div class="rule-text" style="width:100%">
+                                    Correction du display des balises HTML5.</br>
+                                    Suppression des bordures sur les balises IMG (présent par défaut sous IE/8/9/10).</br>
+                                    Suppression du fond gris quand les liens sont actif sur IE10.
 
-            <article>
-                <h2>Règles de grid.css</h2>
-                <section>
-                    <h3>Titre</h3>
-                    <div class="rule-container">
-                        <div style="background-color:red">
-                            Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
+                                </div>
+                            </div>
                         </div>
-                        <div style="background-color:blue">
-                            Salut
+                    </section>
+                    <section>
+                        <h3>Modification de style par défaut</h3>
+                        <div class="rules-container">
+                            <div class="rule-container">
+                                <div class="rule-text" style="width:100%">
+                                    Suppression du style des listes ordonnées et désordonnées (suppression des puces).</br>
+                                    Fusion par défaut des bordures de tableau.</br>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </section>
-                <section>
-                    <h3>Titre</h3>
-                    <div class="rule-container">
-                        <div style="background-color:red">
-                            Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
+                    </section>
+                </article>
+                <article>
+                    <h2>Règles de grid.css</h2>
+                    <section>
+                        <h3>Les positions</h3>
+                        <h4><span class="sans">Sans règle css</span><span class="avec">Avec règle css</span></h4>
+                        <div class="rule-container">
+                            <div class="rule-text">
+                                Règle css de positionement, elles se mettent en (position:absolute) et dépendent donc de leurs premier parent ayant la propriété (position:relative). Noms des class:
+                                <li>L/LEFT = Met l'objet dans le coin gauche de son parent et se trouvant à 50% en dessous du top de ce même parrent.</li>
+                                <li>R/RIGHT = Met l'objet dans le coin droit de son parent et se trouvant à 50% en dessous du top de ce même parrent.</li>
+                                <li>T/TOP = Met l'objet dans la partie supérieur de son parent en étant centré avec un left:50%.</li>
+                                <li>B/BOTTOM = Met l'objet dans la partie inférieur de son parent en étant centré avec un left:50%.</li>
+                                <li>M/MIDDLE = Met l'objet au centre de son parent avec equidistance entre les deux pointd'un même axe Y ou X de son parent.</li>
+                                <li>TL/TOPLEFT = Met l'objet dans le coin supérieur gauche de son parent.</li>
+                                <li>TR/TOPRIGHT = Met l'objet dans le coin supérieur droit de son parent.</li>
+                                <li>BL/BOTTOMLEFT = Met l'objet dans le coin inférieur gauche de son parent.</li>
+                                <li>BR/BOTTOMRIGHT = Met l'objet dans le coin inférieur droit de son parent.</li>
+                            </div>
+                            <div class="rule-show">
+                                <div class="CUBE">
+                                    <div>left</div>
+                                    <div>right</div>
+                                    <div>top</div>
+                                    <div>bottom</div>
+                                    <div>middle</div>
+                                    <div>topleft</div>
+                                    <div>topright</div>
+                                    <div>bottomleft</div>
+                                    <div>bottomright</div>
+                                </div>
+                                <div class="CUBE">
+                                    <div class="L">left</div>
+                                    <div class="R">right</div>
+                                    <div class="T">top</div>
+                                    <div class="B">bottom</div>
+                                    <div class="M">middle</div>
+                                    <div class="TL">topleft</div>
+                                    <div class="TR">topright</div>
+                                    <div class="BL">bottomleft</div>
+                                    <div class="BR">bottomright</div>
+                                </div>
+                            </div>
                         </div>
-                        <div style="background-color:blue">
-                            Salut
+                    </section>
+                    <section>
+                        <h3>Le .RESIZEFROMUSER</h3>
+                        <h4><span class="sans">Sans règle css</span><span class="avec">Avec règle css</span></h4>
+                        <div class="rule-container">
+                            <div class="rule-text">
+                                .RESIZEFROMUSER/RFU, cette class permet de rendre l'objet au quel cete classe est atribué capable d'être modifié par l'utilisateur permettre entre autre de changer la taille d'une div, article, etc......
+                            </div>
+                            <div class="rule-show">
+                                <div class="CUBE">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </div>
+                                <div class="CUBE RESIZEFROMUSER">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </section>
-                <section>
-                    <h3>Titre</h3>
-                    <div class="rule-container">
-                        <div style="background-color:red">
-                            Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
+                    </section>
+                    <section>
+                        <h3>Les .MAXCONTENTWIDTH</h3>
+                        <div class="FLEXTABLE">
+                            <div class="rule-text">
+                                MAXCONTENTWIDTH/MCW. Cette class rend l'objet affecté incapable de dépasser la largeur de son parent d'un facteur plus ou moins important en lui attribuant une max width.
+                            </div>
+                            <div class="ololbackground3">
+                                <div class="ololbackground1 MAXCONTENTWIDTH01">
+                                    Je ne peut pas dépasser 10% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH02">
+                                    Je ne peut pas dépasser 20% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH03">
+                                    Je ne peut pas dépasser 30% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH04">
+                                    Je ne peut pas dépasser 40% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH05">
+                                    Je ne peut pas dépasser 50% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH06">
+                                    Je ne peut pas dépasser 60% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH07">
+                                    Je ne peut pas dépasser 70% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH08">
+                                    Je ne peut pas dépasser 80% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH09">
+                                    Je ne peut pas dépasser 90% de la largeur de mon parent.
+                                </div>
+                                <div class="ololbackground1 MAXCONTENTWIDTH1">
+                                    Je ne peut pas dépasser 100% de la largeur de mon parent.
+                                </div>
+                            </div>
                         </div>
-                        <div style="background-color:blue">
-                            Salut
+                    </section>
+                    <section>
+                        <h3>Les .MAXCONTENTHEIGHT</h3>
+                        <div class="FLEXTABLE">
+                            <div class="rule-text">
+                                MAXCONTENTHEIGHT/MCH. Cette class rend l'objet affecté incapable de dépasser la largeur de son parent d'un facteur plus ou moins important en lui attribuant une max height. Cela peut causer dans certain cas des problème d'affichage nottament comme montré dans l'exemple le
+                                texte vient à sortir de son conteneur (car devenu trop petit pour le contenir) pour régler ce problème l'attribut overflow vous sera bien utile ;).
+                            </div>
+                            <div class="BG1 FLEXTABLE">
+                                <div class="BG2 MAXCONTENTHEIGHT01">
+                                    Je ne peut pas dépasser 10% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT02">
+                                    Je ne peut pas dépasser 20% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT03">
+                                    Je ne peut pas dépasser 30% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT04">
+                                    Je ne peut pas dépasser 40% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT05">
+                                    Je ne peut pas dépasser 50% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT06">
+                                    Je ne peut pas dépasser 60% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT07">
+                                    Je ne peut pas dépasser 70% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT08">
+                                    Je ne peut pas dépasser 80% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT09">
+                                    Je ne peut pas dépasser 90% de la hauteur de mon parent.
+                                </div>
+                                <div class="BG2 MAXCONTENTHEIGHT1">
+                                    Je ne peut pas dépasser 100% de la hauteur de mon parent.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </section>
-            </article>
+                    </section>
 
-            <article>
-                <h2>Règles de nav.css</h2>
-                <section>
-                    <h3>Titre</h3>
-                    <div class="rule-container">
-                        <div style="background-color:red">
-                            Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
-                        </div>
-                        <div style="background-color:blue">
-                            Salut
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <h3>Titre</h3>
-                    <div class="rule-container">
-                        <div style="background-color:red">
-                            Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
-                        </div>
-                        <div style="background-color:blue">
-                            Salut
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <h3>Titre</h3>
-                    <div class="rule-container">
-                        <div style="background-color:red">
-                            Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
-                        </div>
-                        <div style="background-color:blue">
-                            Salut
-                        </div>
-                    </div>
-                </section>
-            </article>
+                    <section>
+                        <h3>Le .FLEXTABLE</h3>
+                        <div class="FT">
+                            <div class="rule-text">
+                                FLEXTABLE/F. Cette class transforme l'objet et ses enfants direct de façon à ce que celà devienne un tableau avec X nombre de colonne (X étant égal au nombre d'enfant direct), il suffis ensuite de mettre d'autre div à l'intérieur des enfants de l'objet ayant la class
+                                .FLEXTABLE/.F.
+                            </div>
 
-            <article>
-                <h2>Règles de utils.css</h2>
-                <section>
-                    <h3>Titre</h3>
-                    <div class="rule-container">
-                        <div style="background-color:red">
-                            Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
+                            <div class="FT ololbackground1">
+                                <div class="ololbackground1">Colonne 1
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                </div>
+                                <div class="ololbackground2">Colonne 2
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                </div>
+                                <div class="ololbackground3">Colonne 3
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                </div>
+                                <div class="ololbackground1">Colonne 4
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                    <div>hmmmmm</div>
+                                </div>
+                            </div>
+                    </section>
+                    <section>
+                        <h3>Les .CASESIZEx</h3>
+                        <div class="FLEXTABLE">
+                            <div class="rule-text MAXCONTENTWIDTH02">
+                                CASESIZEx/CSx .Cette class donne une taille en pourcent dépendante de la taille de son conteneur, contrairement au max width/height ici l'objet peut dépasser de son conteneur notamment lorsqu'il est à une taille supérieure à 100% de son conteneur. Cela peut causer dans
+                                certain cas des problème d'affichage nottament comme montré dans l'exemple le texte vient à sortir de son conteneur (car devenu trop petit pour le contenir) pour régler ce problème l'attribut overflow vous sera bien utile
+                                ;).
+                            </div>
+                            <div class="BG1 FLEXTABLECOLLUMN">
+                                <div class="BG2 CASESIZEx01">
+                                    Je fais 10% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx02">
+                                    Je fais 20% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx03">
+                                    Je fais 30% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx04">
+                                    Je fais 40% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx05">
+                                    Je fais 50% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx06">
+                                    Je fais 60% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx07">
+                                    Je fais 70% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx08">
+                                    Je fais 80% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx09">
+                                    Je fais 90% de la taille de mon conteneur.
+                                </div>
+                                <div class="BG2 CASESIZEx1">
+                                    Je fais 100% de la taille de mon conteneur.
+                                </div>
+                            </div>
                         </div>
-                        <div style="background-color:blue">
-                            Salut
+                    </section>
+                </article>
+
+                <article>
+                    <h2>Règles de nav.css</h2>
+                    <section>
+                        <h3>Titre</h3>
+                        <h4>Titre</h4>
+                        <div class="rule-container">
+                            <div class="rule-text">
+                                Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
+                            </div>
+                            <div class="rule-show">
+                                <div>
+                                    Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                </div>
+                                <div class="">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </section>
-                <section>
-                    <h3>Titre</h3>
-                    <div class="rule-container">
-                        <div style="background-color:red">
-                            Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
+                    </section>
+                    <section>
+                        <h3>Titre</h3>
+                        <h4>Titre</h4>
+                        <div class="rule-container">
+                            <div class="rule-text">
+                                Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
+                            </div>
+                            <div class="rule-show">
+                                <div>
+                                    Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                </div>
+                                <div class="">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                </div>
+                            </div>
                         </div>
-                        <div style="background-color:blue">
-                            Salut
+                    </section>
+                    <section>
+                        <h3>Titre</h3>
+                        <h4>Titre</h4>
+                        <div class="rule-container">
+                            <div class="rule-text">
+                                Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
+                            </div>
+                            <div class="rule-show">
+                                <div>
+                                    Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                </div>
+                                <div class="">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </section>
-                <section>
-                    <h3>Titre</h3>
-                    <div class="rule-container">
-                        <div style="background-color:red">
-                            Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
+                    </section>
+                </article>
+
+                <article>
+                    <h2>Règles de utils.css</h2>
+                    <section>
+                        <h3>Utilisation des règles de utils.css</h3>
+                        <div class="rules-container">
+                            <div class="rule-container">
+                                <div class="rule-text" style="width:100%">
+                                    Ajouter la classe à l'élément désiré<br> c'est tout<br> (toutes les règles existent en version courte)<br>
+                                </div>
+                            </div>
                         </div>
-                        <div style="background-color:blue">
-                            Salut
+                    </section>
+                    <section>
+                        <h3>Padding Top</h3>
+                        <div class="rules-container">
+                            <h4>PADDINGTOP1<br>PT1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGTOP1">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGTOP2<br>PT2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGTOP2">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGTOP3<br>PT3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGTOP3">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGTOP4<br>PT4</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGTOP4">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGTOP5<br>PT5</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGTOP5">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGTOP10<br>PT10</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGTOP10">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGTOP15<br>PT15</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGTOP15">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGTOP20<br>PT20</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGTOP20">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGTOP25<br>PT25</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGTOP25">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </section>
-            </article>
+                    </section>
+                    <section>
+                        <h3>Padding Right</h3>
+                        <div class="rules-container">
+                            <h4>PADDINGRIGHT1<br>PR1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGRIGHT1">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGRIGHT2<br>PR2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGRIGHT2">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGRIGHT3<br>PR3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGRIGHT3">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGRIGHT4<br>PR4</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGRIGHT4">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGRIGHT5<br>PR5</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGRIGHT5">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGRIGHT10<br>PR10</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGRIGHT10">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGRIGHT15<br>PR15</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGRIGHT15">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGRIGHT20<br>PR20</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGRIGHT20">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGRIGHT25<br>PR25</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGRIGHT25">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Padding Bottom</h3>
+                        <div class="rules-container">
+                            <h4>PADDINGBOTTOM1<br>PB1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGBOTTOM1">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGBOTTOM2<br>PB2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGBOTTOM2">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGBOTTOM3<br>PB3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGBOTTOM3">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGBOTTOM4<br>PB4</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGBOTTOM4">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGBOTTOM5<br>PB5</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGBOTTOM5">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGBOTTOM10<br>PB10</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGBOTTOM10">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGBOTTOM15<br>PB15</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGBOTTOM15">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGBOTTOM20<br>PB20</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGBOTTOM20">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGBOTTOM25<br>PB25</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGBOTTOM25">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Padding Left</h3>
+                        <div class="rules-container">
+                            <h4>PADDINGLEFT1<br>PL1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGLEFT1">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGLEFT2<br>PL2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGLEFT2">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGLEFT3<br>PL3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGLEFT3">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGLEFT4<br>PL4</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGLEFT4">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGLEFT5<br>PL5</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGLEFT5">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGLEFT10<br>PL10</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGLEFT10">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGLEFT15<br>PL15</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGLEFT15">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGLEFT20<br>PL20</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGLEFT20">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGLEFT25<br>PL25</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGLEFT25">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Padding All</h3>
+                        <div class="rules-container">
+                            <h4>PADDINGALL1<br>PA1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGALL1">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGALL2<br>PA2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGALL2">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGALL3<br>PA3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGALL3">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGALL4<br>PPA4</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGALL4">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGALL5<br>PA5</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGALL5">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGALL10<br>PA10</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGALL10">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGALL15<br>PA15</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGALL15">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGALL20<br>PA20</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGALL20">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>PADDINGALL25<br>PA25</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="PADDINGALL25">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Margin Top</h3>
+                        <div class="rules-container">
+                            <h4>MARGINTOP1<br>MT1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINTOP1">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINTOP2<br>MT2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINTOP2">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINTOP3<br>MT3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINTOP3">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINTOP4<br>MT4</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINTOP4">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINTOP5<br>MT5</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINTOP5">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINTOP10<br>MT10</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINTOP10">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINTOP15<br>MT15</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINTOP15">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINTOP20<br>MT20</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINTOP20">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINTOP25<br>MT25</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINTOP25">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Margin Right</h3>
+                        <div class="rules-container">
+                            <h4>MARGINRIGHT1<br>MR1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINRIGHT1">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINRIGHT2<br>MR2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINRIGHT2">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINRIGHT3<br>MR3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINRIGHT3">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINRIGHT4<br>MR4</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINRIGHT4">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINRIGHT5<br>MR5</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINRIGHT5">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINRIGHT10<br>MR10</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINRIGHT10">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINRIGHT15<br>MR15</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINRIGHT15">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINRIGHT20<br>MT20</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINRIGHT20">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINRIGHT25<br>MR25</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINRIGHT25">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Margin Bottom</h3>
+                        <div class="rules-container">
+                            <h4>MARGINBOTTOM1<br>MB1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINBOTTOM1">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINBOTTOM2<br>MB2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINBOTTOM2">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINBOTTOM3<br>MB3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINBOTTOM3">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINBOTTOM4<br>MB4</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINBOTTOM4">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINBOTTOM5<br>MB5</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINBOTTOM5">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINBOTTOM10<br>MB10</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINBOTTOM10">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINBOTTOM15<br>MB15</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINBOTTOM15">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINBOTTOM20<br>MB20</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINBOTTOM20">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINBOTTOM25<br>MB25</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINBOTTOM25">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Margin Left</h3>
+                        <div class="rules-container">
+                            <h4>MARGINLEFT1<br>ML1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINLEFT1">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINLEFT2<br>ML2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINLEFT2">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINLEFT3<br>ML3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINLEFT3">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINLEFT4<br>ML4</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINLEFT4">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINLEFT5<br>ML5</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINLEFT5">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINLEFT10<br>ML10</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINLEFT10">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINLEFT15<br>ML15</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINLEFT15">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINLEFT20<br>ML20</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINLEFT20">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINLEFT25<br>ML25</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINLEFT25">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Margin All</h3>
+                        <div class="rules-container">
+                            <h4>MARGINALL1<br>MA1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINALL1">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINALL2<br>MA2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINALL2">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINALL3<br>MA3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINALL3">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINALL4<br>MA4</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINALL4">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINALL5<br>MA5</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINALL5">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINALL10<br>MA10</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINALL10">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINALL15<br>MA15</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINALL15">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINALL20<br>MA20</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINALL20">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MARGINALL25<br>MA25</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MARGINALL25">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Simple Border Top</h3>
+                        <div class="rules-container">
+                            <h4>BORDERTOP1<br>BT1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERTOP1">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERTOP2<br>BT2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERTOP2">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERTOP3<br>BT3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERTOP3">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERTOP4<br>BT4</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERTOP4">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERTOP5<br>BT5</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERTOP5">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Simple Border Right</h3>
+                        <div class="rules-container">
+                            <h4>BORDERRIGHT1<br>BR1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERRIGHT1">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERRIGHT2<br>BR2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERRIGHT2">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERRIGHT3<br>BR3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERRIGHT3">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERRIGHT4<br>BR4</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERRIGHT4">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERRIGHT5<br>BR5</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERRIGHT5">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Simple Border Bottom</h3>
+                        <div class="rules-container">
+                            <h4>BORDERBOTTOM1<br>BB1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERBOTTOM1">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERBOTTOM2<br>BB2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERBOTTOM2">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERBOTTOM3<br>BB3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERBOTTOM3">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERBOTTOM4<br>BB4</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERBOTTOM4">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERBOTTOM5<br>bB5</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERBOTTOM5">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Simple Border Left</h3>
+                        <div class="rules-container">
+                            <h4>BORDERLEFT1<br>BL1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERLEFT1">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERLEFT2<br>BL2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERLEFT2">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERLEFT3<br>BL3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERLEFT3">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERLEFT4<br>BL4</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERLEFT4">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERLEFT5<br>BL5</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERLEFT5">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Simple Border All</h3>
+                        <div class="rules-container">
+                            <h4>BORDERALL1<br>BA1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERALL1">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERALL2<br>BA2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERALL2">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERALL3<br>BA3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERALL3">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERALL4<br>BA4</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERALL4">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BORDERALL5<br>BA5</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BORDERALL5">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Autre règles pour les borders</h3>
+                        <div class="rules-container">
+                            <div class="rule-container">
+                                <div class="rule-text" style="width:100%">
+                                    Il existe MOULT autres règles pour les bordures, suivant l'expression régulière suivante:<br> BORDER[side][style][color][width]
+                                    <br> ou
+                                    <br> B[si][st][c][width]
+                                    <br>
+                                    <br>
+                                    <br> Avec [side] devant valoir, au choix:<br> TOP
+                                    <br> RIGHT
+                                    <br> BOTTOM
+                                    <br> LEFT
+                                    <br> ALL
+                                    <br>
+                                    <br> Avec [s] devant valoir, au choix:<br> T
+                                    <br> R
+                                    <br> B
+                                    <br> L
+                                    <br> A
+                                    <br>
+                                    <br> Avec [style] devant valoir, au choix:<br> DASHED
+                                    <br> DOUBLE
+                                    <br> DOTTED
+                                    <br> SOLID
+                                    <br>
+                                    <br> Avec [st] devant valoir, au choix:<br> DA
+                                    <br> DO
+                                    <br> DT
+                                    <br> SO
+                                    <br>
+                                    <br> Avec [color] devant valoir, au choix:<br> RED
+                                    <br> GREEN
+                                    <br> BLUE
+                                    <br> YELLOW
+                                    <br> BLACK
+                                    <br> WHITE
+                                    <br> GREY1
+                                    <br> GREY2
+                                    <br> GREY3
+                                    <br>
+                                    <br> Avec [c] devant valoir, au choix:<br> R
+                                    <br> G
+                                    <br> B
+                                    <br> Y
+                                    <br> 0
+                                    <br> W
+                                    <br> G1
+                                    <br> G2
+                                    <br> G3
+                                    <br>
+                                    <br> Avec [width] devant valoir, au choix:<br> 1
+                                    <br> 2
+                                    <br> 3
+                                    <br> 4
+                                    <br> 5
+                                    <br>
+                                    <br>
+                                    <br> (les bordures simples présentées plus haut prennent pour valeur [style]=SOLID et [color]=BLACK en réduisant donc la syntaxe)
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Font Families</h3>
+                        <div class="rules-container">
+                            <h4>SERIF<br>FFS</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="SERIF">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>SANSSERIF<br>FFSS</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="SANSSERIF">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>MONOSPACE<br>FFM</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="MONOSPACE">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Font Weights</h3>
+                        <div class="rules-container">
+                            <h4>BOLD<br>FWB</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BOLD">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BOLDER<br>FWB2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BOLDER">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>LIGHTER<br>FWL</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="LIGHTER">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Font Styles</h3>
+                        <div class="rules-container">
+                            <h4>ITALIC<br>FSI</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="ITALIC">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>OBLIQUE<br>FSO</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="OBLIQUE">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Font Variant</h3>
+                        <div class="rules-container">
+                            <h4>SMALLCAPS<br>FVSC</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="SMALLCAPS">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Font Colors</h3>
+                        <div class="rules-container">
+                            <h4>FONTRED<br>FCR</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="FONTRED">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>FONTGREEN<br>FCG</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="FONTGREEN">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>FONTBLUE<br>FCB</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="FONTBLUE">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>FONTYELLOW<br>FCY</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="FONTYELLOW">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>FONTBLACK<br>FC0</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="FONTBLACK">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>FONTGREY25<br>FCG1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="FONTGREY25">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>FONTGREY50<br>FCG2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="FONTGREY50">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>FONTGREY75<br>FCG3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="FONTGREY75">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>FONTWHITE<br>FCW</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="FONTWHITE">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Background Colors</h3>
+                        <div class="rules-container">
+                            <h4>BACKRED<br>BCR</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BACKRED">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BACKGREEN<br>BCG</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BACKGREEN">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BACKBLUE<br>BCB</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BACKBLUE">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BACKYELLOW<br>BCY</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BACKYELLOW">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BACKBLACK<br>BC0</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BACKBLACK">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BACKGREY25<br>BCG1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BACKGREY25">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BACKGREY50<br>BCG2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BACKGREY50">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BACKGREY75<br>BCG3</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BACKGREY75">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>BACKWHITE<br>BCW</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="BACKWHITE">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Font Sizes</h3>
+                        <div class="rules-container">
+                            <h4>REM025<br>FS1</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM025">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM050<br>FS2</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM050">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM075<br>F23</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM075">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM100<br>FS4</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM100">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM125<br>FS5</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM125">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM150<br>FS6</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM150">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM175<br>FS7</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM175">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM200<br>FS8</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM200">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM225<br>FS9</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM225">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM250<br>FS10</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM250">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM275<br>FS11</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM275">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM300<br>FS12</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM300">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM325<br>FS13</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM325">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM350<br>FS14</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM350">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM375<br>FS15</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM375">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM400<br>FS16</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM400">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM425<br>FS17</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM425">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM450<br>FS18</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM450">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM475<br>FS19</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM475">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>REM500<br>FS20</h4>
+                            <div class="rule-container">
+                                <div class="rule-show">
+                                    <div>
+                                        Lorem ipsum dolor sit amet, consectetuer adispicing elit.
+                                    </div>
+                                    <div class="REM500">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </article>
             </main>
+            </div>
 
             <footer>
                 <h2>
                     <a href="example.html">
-                        Exemple
+                        Example
                     </a>
                 </h2>
+                <p class="FS4 igonnabebigifyoupassonme">
+                    <a href="ALICE/testmenu.html">
+                        Menu exemple
+                    </a>
+                </p>
             </footer>
         </div>
 
         <!--
             <section>
             <h3>Titre</h3>
+            <div class="rules-container">
+            <h4>Titre</h4>
             <div class="rule-container">
-            <div style="background-color:red">
-            Texte de remplissage servant à décrire, expliquer et présenter une fonctionnalité présentée dans la div à droite de celle-ci
-            </div>
-            <div style="background-color:blue">
+            <div class="rule-text">
             Salut
+            </div>
+            <div class="rule-show">
+            <div>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            </div>
+            <div class="">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            </div>
+            </div>
             </div>
             </div>
             </section>
         -->
 
-    </body>
+</body>
+
 </html>

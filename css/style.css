@@ -1,0 +1,141 @@
+body
+{
+  background-color: #FFFFFF;
+}
+header, footer
+{
+    position: fixed;
+    z-index: 1;
+    background-color: #BFBFBF;
+}
+
+article
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+section
+{
+    border: 3px solid #000000;
+    width: 100%;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+h2
+{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+h3
+{
+    font-size: 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #3F3F3F;
+    color: white;
+}
+
+div.rules-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #BFBFBF;
+    box-sizing: border-box;
+}
+
+div.rule-container
+{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+div.rule-container div
+{
+    box-sizing: border-box;
+}
+
+div.rule-text
+{
+    width: 30%;
+    background-color: #BFBFBF;
+}
+
+div.rule-show
+{
+    color: #FFFFFF;
+    flex-grow: 1;
+    display: flex;
+    background-color: #7F7F7F;
+}
+
+div.rule-show>div
+{
+    width: 50%;
+}
+
+div.rule-show>div:first-child
+{
+    border: 2px solid #000000;
+}
+.igonnabebigifyoupassonme:hover{
+        font-size: 1.5rem;
+}
+.avec{
+  float: right;
+  padding-right: 20%;
+}
+.sans{
+padding-left: 40%;
+}
+.FLEXTABLECOLLUMN {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.ololbackground1 {
+    background: linear-gradient(325deg, #1dddac, #941f1f);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+
+.ololbackground2 {
+    background: linear-gradient(325deg, #3866b4, #528c32, #a13337);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+.ololbackground3{
+background: linear-gradient(108deg, #1cf0b9, #fd9e00, #f90061, #1100f9, #44f900, #afbfa9, #03f2ff, #ff00f5, #000000);
+background-size: 1800% 1800%;
+
+-webkit-animation: AnimationName 9s ease infinite;
+-moz-animation: AnimationName 9s ease infinite;
+animation: AnimationName 9s ease infinite;
+}
+.BG1{
+    background-color: #00FFFF;
+}
+.BG2{
+    background-color: purple;
+}
+@-webkit-keyframes AnimationName {
+   0%{background-position:0% 86%}
+   50%{background-position:100% 15%}
+   100%{background-position:0% 86%}
+}
+@-moz-keyframes AnimationName {
+   0%{background-position:0% 86%}
+   50%{background-position:100% 15%}
+   100%{background-position:0% 86%}
+}
+@keyframes AnimationName {
+   0%{background-position:0% 86%}
+   50%{background-position:100% 15%}
+   100%{background-position:0% 86%}
+}
