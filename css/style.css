@@ -1,11 +1,12 @@
 body
 {
-  background-color: #934BE8;
+  background-color: #FFFFFF;
 }
 header, footer
 {
     position: fixed;
     z-index: 1;
+    background-color: #BFBFBF;
 }
 
 article
@@ -31,7 +32,7 @@ h3
     font-size: 1.5em;
     width: 100%;
     box-sizing: border-box;
-    background-color: #003F3F;
+    background-color: #3F3F3F;
     color: white;
 }
 
@@ -40,7 +41,7 @@ div.rules-container
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: #00FFFF;
+    background-color: #BFBFBF;
     box-sizing: border-box;
 }
 
@@ -59,24 +60,28 @@ div.rule-container div
 div.rule-text
 {
     width: 30%;
-    background-color: #FF7F7F;
+    background-color: #BFBFBF;
 }
 
 div.rule-show
 {
+    color: #FFFFFF;
     flex-grow: 1;
     display: flex;
-    background-color: #00BFBF;
+    background-color: #7F7F7F;
 }
 
-div.rule-show >div
+div.rule-show>div
 {
     width: 50%;
 }
 
-div.rule-show > div:first-child
+div.rule-show>div:first-child
 {
-    border: 2px solid #3F3F3F;
+    border: 2px solid #000000;
+}
+.igonnabebigifyoupassonme:hover{
+        font-size: 1.5rem;
 }
 .avec{
   float: right;

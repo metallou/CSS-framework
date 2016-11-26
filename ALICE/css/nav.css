@@ -1,19 +1,14 @@
-<<<<<<< HEAD
 body{
   margin: 0;
 }
 
 nav.menu, .menu p, .menu p a, .menu div, .menu ul, .menu label, .menu input, .menu li{
-=======
-body, nav.menu, nav.menu label p, .menu ul, .menu li, .menu label, .menu input, .menu a{
->>>>>>> 106f03fef0d5f7f986a9e59000ad255805aa75f6
   margin: 0;
   padding: 0;
 }
 
 nav.menu{
   display: flex;
-<<<<<<< HEAD
 }
 
 nav.menu div{
@@ -31,17 +26,6 @@ nav.menu div{
 .menu div div{
   flex-direction: column;
   width: 100%;
-=======
-  position: relative;
-}
-
-.menu ul{
-  position: relative;
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  flex-wrap: wrap;
->>>>>>> 106f03fef0d5f7f986a9e59000ad255805aa75f6
 }
 
 .menu label{
@@ -62,12 +46,10 @@ nav.menu div{
   min-width: 180px;
   max-width: 250px;
   line-height: 200%;
-  height: 2em;
   border: 1px solid white;
   background-color: black;
 }
 
-<<<<<<< HEAD
 .menu ul li, .menu div label{
   position: relative;
   top: auto;
@@ -75,17 +57,12 @@ nav.menu div{
 }
 
 .menu  a, .menu label{
-=======
-.menu label, .menu a{
-  position: relative;
->>>>>>> 106f03fef0d5f7f986a9e59000ad255805aa75f6
   display: block;
   font-size: 1em;
   text-decoration: none;
   color: white;
 }
 
-<<<<<<< HEAD
 .menu ul ul li a, .menu div div label{
   background: grey;
   color: black;
@@ -97,59 +74,20 @@ nav.menu div{
 }
 
 .menu label:hover, .menu  li:hover, .menu p:hover, .menu label:active, .menu li:active, .menu p:active{
-=======
-.menu label{
-  cursor: pointer;
-  display: block;
-}
-
-.menu label + input{
-  display: none; /* hide the checkboxes */
-}
-
-.menu ul ul li a, .menu ul ul li label{
-  position: relative;
-  background: grey;
-  color: black;
-}
-
-.menu ul ul ul li a, .menu ul ul ul li label{
-  position: relative;
-  background-color: silver;
-  color: black;
-}
-
-.menu ul ul{
-  position: relative;
-  flex-direction: column;
-  width: 100%;
-  display: none;
-}
-
-nav.menu > ul:hover, .menu  li:hover, nav.menu > ul:active, .menu li:active{
->>>>>>> 106f03fef0d5f7f986a9e59000ad255805aa75f6
   transform: scale(1.05);
   font-weight: bold;
 }
 
-<<<<<<< HEAD
 .menu label + input:checked + ul, .menu label + input:checked + div{
   display: flex;
 }
 
 
-=======
-.menu label + input:checked + ul{
-  display: flex;
-}
-
-/*media query*/
->>>>>>> 106f03fef0d5f7f986a9e59000ad255805aa75f6
 
 @media screen and (max-width: 640px){
-  nav.menu > label p{
+  nav.menu{
+    display: inline-block;
     position: relative;
-<<<<<<< HEAD
   }
 
   .menu p a{
@@ -159,37 +97,20 @@ nav.menu > ul:hover, .menu  li:hover, nav.menu > ul:active, .menu li:active{
     width: 50px;
     height: 50px;
     line-height: 600%;
-=======
-    display: inline-block;
-    padding: 1.6vh;
-    padding-bottom: 2.3vh;
-    box-sizing: content-box;
-    width: 6.5vh;
-    height: 6vh;
-    line-height: 1.4vh;
-    font-weight: bolder;
->>>>>>> 106f03fef0d5f7f986a9e59000ad255805aa75f6
     text-align: center;
     background-color: black;
     color: white;
   }
 
-<<<<<<< HEAD
   nav.menu > ul{
     display: flex;
-=======
-  .menu ul{
->>>>>>> 106f03fef0d5f7f986a9e59000ad255805aa75f6
     flex-direction: column;
+    width: 180px;
+    margin: auto;
     position: absolute;
-    top: 9.9vh;
-    left: 0;
-    width: 100%;
-    display: flex;
-    display: none;
+    top: -999em;
   }
 
-<<<<<<< HEAD
   nav.menu > ul > li{
     position: relative;
   }
@@ -203,20 +124,4 @@ nav.menu > ul:hover, .menu  li:hover, nav.menu > ul:active, .menu li:active{
     position: relative;
     top: auto;
     left: 0;
-=======
-  .menu li{
-    width: 180px;
-    display: block;
-    top: 2em;
-    left: 0;
-  }
-
-  .menu ul ul{
-    position: relative;
-    top: auto;
-  }
-
-  .menu label + input:checked + ul{
-    display: flex;
->>>>>>> 106f03fef0d5f7f986a9e59000ad255805aa75f6
   }
